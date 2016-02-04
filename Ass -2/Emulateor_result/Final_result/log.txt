@@ -1,0 +1,263 @@
+--------- beginning of main
+09-19 22:25:51.689 D/GCM     ( 1813): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+09-19 22:25:54.515 I/InputReader( 1280): Reconfiguring input devices.  changes=0x00000010
+09-19 22:25:54.552 D/PackageBroadcastService( 1861): Received broadcast action=android.intent.action.PACKAGE_CHANGED and uri=com.google.android.gms
+09-19 22:25:54.571 I/PackageBroadcastService( 1861): Null package name or gms related package.  Ignoreing.
+09-19 22:25:54.602 I/Icing   ( 1861): updateResources: need to parse f{com.google.android.gms}
+09-19 22:25:54.633 V/GmsNetworkLocationProvi( 1780): DISABLE
+09-19 22:25:54.642 I/GCoreNlp( 1780): shouldConfirmNlp, NLP off. Ensuring opt-in disabled
+--------- beginning of system
+09-19 22:25:55.501 I/ActivityManager( 1280): Killing 1756:com.android.defcontainer/u0a3 (adj 15): empty #17
+09-19 22:25:56.135 I/ConfigService( 1813): onDestroy
+09-19 22:25:56.222 I/GlobalDismissManager( 2019): no sender configured
+09-19 22:25:56.222 D/AlertService( 2019): Beginning updateAlertNotification
+09-19 22:25:56.279 D/AlertService( 2019): No fired or scheduled alerts
+09-19 22:25:56.363 D/AlertService( 2019): Scheduling next alarm with AlarmScheduler. sEventReminderReceived: null
+09-19 22:25:56.376 D/AlarmScheduler( 2019): No events found starting within 1 week.
+09-19 22:25:56.647 I/ActivityManager( 1280): Killing 1986:com.android.settings/1000 (adj 15): empty #17
+09-19 22:25:59.676 I/ActivityManager( 1280): Killing 2127:com.android.dialer/u0a4 (adj 15): empty #17
+09-19 22:25:59.832 I/ActivityManager( 1280): Waited long enough for: ServiceRecord{e79e0ce u0 com.android.calendar/.alerts.InitAlarmsService}
+09-19 22:26:01.959 D/AndroidRuntime( 2969): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+09-19 22:26:01.960 D/AndroidRuntime( 2969): CheckJNI is ON
+09-19 22:26:01.989 I/art     ( 2969): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 22:26:01.993 D/ICU     ( 2969): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+09-19 22:26:02.023 E/memtrack( 2969): Couldn't load memtrack module (No such file or directory)
+09-19 22:26:02.023 E/android.os.Debug( 2969): failed to load memtrack module: -2
+09-19 22:26:02.043 I/Radio-JNI( 2969): register_android_hardware_Radio DONE
+09-19 22:26:02.057 D/AndroidRuntime( 2969): Calling main entry com.android.commands.am.Am
+09-19 22:26:02.060 I/ActivityManager( 1280): Force stopping dpatel96_a2.cs442.com.activitylifecycle appid=10058 user=0: from pid 2969
+09-19 22:26:02.060 I/ActivityManager( 1280): Killing 2097:dpatel96_a2.cs442.com.activitylifecycle/u0a58 (adj 13): stop dpatel96_a2.cs442.com.activitylifecycle
+09-19 22:26:02.065 D/GraphicsStats( 1280): Buffer count: 3
+09-19 22:26:02.147 W/ActivityManager( 1280): Spurious death for ProcessRecord{2ef69be 0:dpatel96_a2.cs442.com.activitylifecycle/u0a58}, curProc for 2097: null
+09-19 22:26:02.161 D/AndroidRuntime( 2969): Shutting down VM
+09-19 22:26:02.205 I/art     ( 2969): Debugger is no longer active
+09-19 22:26:02.697 D/AndroidRuntime( 2988): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+09-19 22:26:02.702 D/AndroidRuntime( 2988): CheckJNI is ON
+09-19 22:26:02.719 I/art     ( 2988): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 22:26:02.725 D/ICU     ( 2988): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+09-19 22:26:02.748 E/memtrack( 2988): Couldn't load memtrack module (No such file or directory)
+09-19 22:26:02.748 E/android.os.Debug( 2988): failed to load memtrack module: -2
+09-19 22:26:02.749 I/Radio-JNI( 2988): register_android_hardware_Radio DONE
+09-19 22:26:02.774 D/AndroidRuntime( 2988): Calling main entry com.android.commands.am.Am
+09-19 22:26:02.775 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity} from uid 0 on display 0
+09-19 22:26:02.809 D/AndroidRuntime( 2988): Shutting down VM
+09-19 22:26:02.858 I/ActivityManager( 1280): Start proc 2999:dpatel96_a2.cs442.com.activitylifecycle/u0a58 for activity dpatel96_a2.cs442.com.activitylifecycle/.MainActivity
+09-19 22:26:02.942 I/art     ( 2999): Not late-enabling -Xcheck:jni (already on)
+09-19 22:26:02.942 I/art     ( 2999): Late-enabling JIT
+09-19 22:26:02.947 I/art     ( 2999): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 22:26:02.949 I/art     ( 2988): Debugger is no longer active
+09-19 22:26:02.980 W/art     ( 2988): Suspending all threads took: 30.076ms
+09-19 22:26:03.109 W/System  ( 2999): ClassLoader referenced unknown path: /data/app/dpatel96_a2.cs442.com.activitylifecycle-2/lib/x86
+09-19 22:26:03.404 D/Lifecycle_dpatel96( 2999): 1: onCreate() called:
+09-19 22:26:03.405 D/Lifecycle_dpatel96( 2999): 2: onStart() called:
+09-19 22:26:03.406 D/Lifecycle_dpatel96( 2999): 3: onResume() called:
+09-19 22:26:03.411 E/SurfaceFlinger(  936): ro.sf.lcd_density must be defined as a build property
+09-19 22:26:03.412 D/OpenGLRenderer( 2999): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+09-19 22:26:03.417 D/        ( 2999): HostConnection::get() New Host Connection established 0xabe699d0, tid 2999
+09-19 22:26:03.700 D/        ( 2999): HostConnection::get() New Host Connection established 0xabe69c70, tid 3021
+09-19 22:26:03.754 I/OpenGLRenderer( 2999): Initialized EGL, version 1.4
+09-19 22:26:03.834 W/EGL_emulation( 2999): eglSurfaceAttrib not implemented
+09-19 22:26:03.834 W/OpenGLRenderer( 2999): Failed to set EGL_SWAP_BEHAVIOR on surface 0xabe6a3e0, error=EGL_SUCCESS
+09-19 22:26:04.219 I/ActivityManager( 1280): Displayed dpatel96_a2.cs442.com.activitylifecycle/.MainActivity: +1s419ms
+09-19 22:26:04.252 E/Surface ( 2661): getSlotFromBufferLocked: unknown buffer: 0xab75b1b0
+09-19 22:26:04.252 I/CheckinService( 1861): Done disabling old GoogleServicesFramework version
+09-19 22:26:06.194 D/        ( 1280): HostConnection::get() New Host Connection established 0x9a0efdb0, tid 1308
+09-19 22:26:06.208 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:26:06.559 W/art     ( 1280): Long monitor contention event with owner method=boolean com.android.server.am.ActivityManagerService.finishActivity(android.os.IBinder, int, android.content.Intent, boolean) from ActivityManagerService.java:4245 waiters=0 for 167ms
+09-19 22:26:06.561 D/Lifecycle_dpatel96( 2999): 4: onPause() called:
+09-19 22:26:06.620 W/EGL_emulation( 2661): eglSurfaceAttrib not implemented
+09-19 22:26:06.620 W/OpenGLRenderer( 2661): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa35d2020, error=EGL_SUCCESS
+09-19 22:26:06.832 I/art     ( 1280): Background partial concurrent mark sweep GC freed 25031(1503KB) AllocSpace objects, 7(344KB) LOS objects, 33% free, 6MB/10MB, paused 1.599ms total 172.575ms
+09-19 22:26:07.785 I/Choreographer( 2661): Skipped 62 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:07.985 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:07.985 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:08.306 E/Surface ( 2999): getSlotFromBufferLocked: unknown buffer: 0xab75a180
+09-19 22:26:08.316 D/Lifecycle_dpatel96( 2999): 5: onStop() called:
+09-19 22:26:08.316 D/Lifecycle_dpatel96( 2999): 6: onDestroy() called:
+09-19 22:26:08.332 W/SurfaceFlinger(  936): couldn't log to binary event log: overflow.
+09-19 22:26:14.960 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity (has extras)} from uid 10008 on display 0
+09-19 22:26:15.066 D/Lifecycle_dpatel96( 2999): 1: onCreate() called:
+09-19 22:26:15.067 D/Lifecycle_dpatel96( 2999): 2: onStart() called:
+09-19 22:26:15.067 D/Lifecycle_dpatel96( 2999): 3: onResume() called:
+09-19 22:26:15.141 W/EGL_emulation( 2999): eglSurfaceAttrib not implemented
+09-19 22:26:15.141 W/OpenGLRenderer( 2999): Failed to set EGL_SWAP_BEHAVIOR on surface 0xabe6a3e0, error=EGL_SUCCESS
+09-19 22:26:15.897 D/InitAlarmsService( 2019): Clearing and rescheduling alarms.
+09-19 22:26:16.337 I/Choreographer( 1280): Skipped 77 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:16.406 I/ActivityManager( 1280): Displayed dpatel96_a2.cs442.com.activitylifecycle/.MainActivity: +1s383ms
+09-19 22:26:16.425 W/InputMethodManagerService( 1280): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@25e6893 (uid=10008 pid=2661)
+09-19 22:26:16.474 E/Surface ( 2661): getSlotFromBufferLocked: unknown buffer: 0xab75b220
+09-19 22:26:19.895 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+09-19 22:26:19.923 D/        (  936): HostConnection::get() New Host Connection established 0xb70cb630, tid 3044
+09-19 22:26:19.932 D/        ( 1280): HostConnection::get() New Host Connection established 0x9a0efcd0, tid 1311
+09-19 22:26:19.942 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:26:19.994 D/Lifecycle_dpatel96( 2999): 4: onPause() called:
+09-19 22:26:20.019 W/art     ( 1280): Long monitor contention event with owner method=int com.android.server.am.ActivityStackSupervisor.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.IActivityManager$WaitResult, android.content.res.Configuration, android.os.Bundle, boolean, int, android.app.IActivityContainer, com.android.server.am.TaskRecord) from ActivityStackSupervisor.java:946 waiters=0 for 123ms
+09-19 22:26:20.021 D/Lifecycle_dpatel96( 2999): 5: onStop() called:
+09-19 22:26:20.035 E/Surface ( 2999): getSlotFromBufferLocked: unknown buffer: 0xab75a1f0
+09-19 22:26:20.105 W/EGL_emulation( 2661): eglSurfaceAttrib not implemented
+09-19 22:26:20.105 W/OpenGLRenderer( 2661): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa147df80, error=EGL_SUCCESS
+09-19 22:26:21.155 I/art     ( 1350): Background partial concurrent mark sweep GC freed 901(44KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 8MB/12MB, paused 1.492ms total 135.612ms
+09-19 22:26:21.175 I/Choreographer( 2661): Skipped 57 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:21.234 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:21.234 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:21.643 W/SurfaceFlinger(  936): couldn't log to binary event log: overflow.
+09-19 22:26:21.697 I/art     ( 1813): Background sticky concurrent mark sweep GC freed 21837(3MB) AllocSpace objects, 0(0B) LOS objects, 37% free, 5MB/8MB, paused 1.298ms total 105.643ms
+09-19 22:26:23.896 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.browser cmp=com.android.browser/.BrowserActivity bnds=[849,1532][1050,1784] (has extras)} from uid 10008 on display 0
+09-19 22:26:24.023 I/ActivityManager( 1280): Start proc 3165:com.android.browser/u0a18 for activity com.android.browser/.BrowserActivity
+09-19 22:26:24.040 I/art     ( 3165): Late-enabling JIT
+09-19 22:26:24.114 I/art     ( 3165): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 22:26:24.244 W/System  ( 3165): ClassLoader referenced unknown path: /system/app/Browser/lib/x86
+09-19 22:26:24.300 E/art     ( 3165): Failed sending reply to debugger: Broken pipe
+09-19 22:26:24.300 I/art     ( 3165): Debugger is no longer active
+09-19 22:26:24.430 W/art     ( 3165): Suspending all threads took: 129.657ms
+09-19 22:26:25.389 W/MountService( 1280): No primary storage defined yet; hacking together a stub
+09-19 22:26:25.390 W/MountService( 1280): No primary storage defined yet; hacking together a stub
+09-19 22:26:25.390 W/MountService( 1280): No primary storage defined yet; hacking together a stub
+09-19 22:26:25.390 W/MountService( 1280): No primary storage defined yet; hacking together a stub
+09-19 22:26:25.390 W/ContextImpl( 3165): Failed to ensure /sdcard/Android/data/com.android.browser/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.android.browser/files
+09-19 22:26:25.788 I/WebViewFactory( 3165): Loading com.android.webview version 44.0.2403.119 (code 246011910)
+09-19 22:26:25.819 W/System  ( 3165): ClassLoader referenced unknown path: /system/app/webview/lib/x86
+09-19 22:26:26.249 E/Surface ( 2661): getSlotFromBufferLocked: unknown buffer: 0xab75b1b0
+09-19 22:26:26.403 W/art     ( 2999): Suspending all threads took: 7.663ms
+09-19 22:26:26.722 I/LibraryLoader( 3165): Time to load native libraries: 273 ms (timestamps 8278-8551)
+09-19 22:26:26.727 I/LibraryLoader( 3165): Expected native library version number "",actual native library version number ""
+09-19 22:26:26.744 V/WebViewChromiumFactoryProvider( 3165): Binding Chromium to main looper Looper (main, tid 1) {6c2f2c4}
+09-19 22:26:26.744 I/LibraryLoader( 3165): Expected native library version number "",actual native library version number ""
+09-19 22:26:26.766 I/chromium( 3165): [INFO:library_loader_hooks.cc(120)] Chromium logging enabled: level = 0, default verbosity = 0
+09-19 22:26:26.780 I/BrowserStartupController( 3165): Initializing chromium process, singleProcess=true
+09-19 22:26:26.793 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:26.806 E/SysUtils( 3165): ApplicationContext is null in ApplicationStatus
+09-19 22:26:27.121 W/chromium( 3165): [WARNING:resource_bundle.cc(285)] locale_file_path.empty()
+09-19 22:26:27.137 E/libEGL  ( 3165): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+09-19 22:26:27.137 E/libEGL  ( 3165): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+09-19 22:26:27.139 D/        ( 3165): HostConnection::get() New Host Connection established 0xb3f9c970, tid 3165
+09-19 22:26:27.159 E/eglCodecCommon( 3165): glUtilsParamSize: unknow param 0x00008d57
+09-19 22:26:27.224 W/art     ( 3165): Suspending all threads took: 11.431ms
+09-19 22:26:27.232 I/art     ( 3165): Background sticky concurrent mark sweep GC freed 25209(1461KB) AllocSpace objects, 6(120KB) LOS objects, 75% free, 894KB/3MB, paused 12.791ms total 36.102ms
+09-19 22:26:27.246 W/AudioManagerAndroid( 3165): Requires BLUETOOTH permission
+09-19 22:26:27.342 E/DataReductionProxySettingListener( 3165): No DRP key due to exception:java.lang.ClassNotFoundException: com.android.webview.chromium.Drp
+09-19 22:26:27.471 I/AccountManagerService( 1280): getTypesVisibleToCaller: isPermitted? false
+09-19 22:26:27.673 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:27.692 W/AwContents( 3165): onDetachedFromWindow called when already detached. Ignoring
+09-19 22:26:27.800 E/SELinux (  935): avc:  denied  { find } for service=batteryproperties scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:healthd_service:s0 tclass=service_manager
+09-19 22:26:27.928 D/WebViewTimersControl( 3165): onBrowserActivityResume
+09-19 22:26:27.929 D/WebViewTimersControl( 3165): Resuming webview timers, view=com.android.browser.BrowserWebView{bf3ac0 VFEDHVCL. .F....I. 0,0-0,0}
+09-19 22:26:27.939 V/NFC     ( 3165): this device does not have NFC support
+09-19 22:26:27.962 E/SurfaceFlinger(  936): ro.sf.lcd_density must be defined as a build property
+09-19 22:26:27.963 D/OpenGLRenderer( 3165): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+09-19 22:26:27.982 W/chromium( 3165): [WARNING:data_reduction_proxy_config.cc(423)] SPDY proxy OFF at startup
+09-19 22:26:28.034 I/OpenGLRenderer( 3165): Initialized EGL, version 1.4
+09-19 22:26:28.037 D/        ( 3165): HostConnection::get() New Host Connection established 0xa120bf90, tid 3230
+09-19 22:26:28.078 W/EGL_emulation( 3165): eglSurfaceAttrib not implemented
+09-19 22:26:28.078 W/OpenGLRenderer( 3165): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad70d5c0, error=EGL_SUCCESS
+09-19 22:26:28.118 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:28.119 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:28.685 I/ActivityManager( 1280): Displayed com.android.browser/.BrowserActivity: +4s775ms
+09-19 22:26:28.688 I/Choreographer( 3165): Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:28.690 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:28.724 I/art     ( 3165): WaitForGcToComplete blocked for 23.458ms for cause Background
+09-19 22:26:28.909 I/art     ( 3165): Background partial concurrent mark sweep GC freed 265(10KB) AllocSpace objects, 1(7MB) LOS objects, 31% free, 8MB/12MB, paused 177.447ms total 184.682ms
+09-19 22:26:29.795 I/ActivityManager( 1280): moveTaskToBack: TaskRecord{d032c48 #18 A=android.task.browser U=0 sz=1}
+09-19 22:26:29.804 D/        ( 1280): HostConnection::get() New Host Connection established 0x9d67fa10, tid 1669
+09-19 22:26:29.836 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:26:30.109 W/EGL_emulation( 2661): eglSurfaceAttrib not implemented
+09-19 22:26:30.109 W/OpenGLRenderer( 2661): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa147fdc0, error=EGL_SUCCESS
+09-19 22:26:30.308 I/art     ( 1280): Background partial concurrent mark sweep GC freed 5152(397KB) AllocSpace objects, 5(112KB) LOS objects, 33% free, 6MB/10MB, paused 1.878ms total 196.759ms
+09-19 22:26:30.888 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:30.888 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:30.943 I/Choreographer( 3165): Skipped 135 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:30.944 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:31.002 I/art     ( 3165): Background sticky concurrent mark sweep GC freed 22(1328B) AllocSpace objects, 0(0B) LOS objects, 0% free, 15MB/15MB, paused 29.651ms total 57.527ms
+09-19 22:26:31.410 D/WebViewTimersControl( 3165): onBrowserActivityPause
+09-19 22:26:31.410 D/WebViewTimersControl( 3165): Pausing webview timers, view=com.android.browser.BrowserWebView{bf3ac0 VFEDHVCL. .F....ID 0,0-1080,1548}
+09-19 22:26:31.507 I/Choreographer( 3165): Skipped 32 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:31.700 E/Surface ( 3165): getSlotFromBufferLocked: unknown buffer: 0xb3f93110
+09-19 22:26:32.183 D/WebViewTimersControl( 3165): onBrowserActivityPause
+09-19 22:26:32.183 D/WebViewTimersControl( 3165): Pausing webview timers, view=com.android.browser.BrowserWebView{bf3ac0 VFEDHVCL. .F....ID 0,0-1080,1548}
+09-19 22:26:32.203 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:32.222 D/WebViewTimersControl( 3165): onBrowserActivityResume
+09-19 22:26:32.222 D/WebViewTimersControl( 3165): Resuming webview timers, view=com.android.browser.BrowserWebView{bf3ac0 VFEDHVCL. .F....ID 0,0-1080,1548}
+09-19 22:26:32.315 D/        ( 3165): HostConnection::get() New Host Connection established 0xa01179a0, tid 3266
+09-19 22:26:32.384 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity (has extras)} from uid 10008 on display 0
+09-19 22:26:32.406 D/Lifecycle_dpatel96( 2999): 6: onRestart() called:
+09-19 22:26:32.437 D/Lifecycle_dpatel96( 2999): 7: onStart() called:
+09-19 22:26:32.437 D/Lifecycle_dpatel96( 2999): 8: onResume() called:
+09-19 22:26:32.597 W/EGL_emulation( 2999): eglSurfaceAttrib not implemented
+09-19 22:26:32.597 W/OpenGLRenderer( 2999): Failed to set EGL_SWAP_BEHAVIOR on surface 0xabe6a3e0, error=EGL_SUCCESS
+09-19 22:26:33.593 I/Choreographer( 2999): Skipped 49 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:33.998 E/Surface ( 2661): getSlotFromBufferLocked: unknown buffer: 0xa1982150
+09-19 22:26:34.413 W/BindingManager( 3165): Cannot call determinedVisibility() - never saw a connection for the pid: 3165
+09-19 22:26:35.153 I/ActivityManager( 1280): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10014 on display 0
+09-19 22:26:35.162 D/AudioFlinger(  947): mixer(0xb4540000) throttle end: throttle time(635)
+09-19 22:26:35.163 D/        ( 1280): HostConnection::get() New Host Connection established 0x9c97c570, tid 2660
+09-19 22:26:35.178 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:26:35.255 D/AudioFlinger(  947): mixer(0xb4540000) throttle end: throttle time(5)
+09-19 22:26:35.432 W/art     ( 1280): Long monitor contention event with owner method=android.graphics.Bitmap com.android.server.wm.WindowManagerService.screenshotApplicationsInner(android.os.IBinder, int, int, int, boolean) from WindowManagerService.java:6213 waiters=0 for 270ms
+09-19 22:26:35.436 D/Lifecycle_dpatel96( 2999): 9: onPause() called:
+09-19 22:26:35.671 W/EGL_emulation( 1350): eglSurfaceAttrib not implemented
+09-19 22:26:35.671 W/OpenGLRenderer( 1350): Failed to set EGL_SWAP_BEHAVIOR on surface 0xaf6d0e80, error=EGL_SUCCESS
+09-19 22:26:35.907 W/art     ( 1280): Long monitor contention event with owner method=int com.android.server.am.ActivityStackSupervisor.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.IActivityManager$WaitResult, android.content.res.Configuration, android.os.Bundle, boolean, int, android.app.IActivityContainer, com.android.server.am.TaskRecord) from ActivityStackSupervisor.java:946 waiters=0 for 744ms
+09-19 22:26:36.356 D/Lifecycle_dpatel96( 2999): 10: onStop() called:
+09-19 22:26:37.173 I/Choreographer( 1350): Skipped 81 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:37.209 I/ActivityManager( 1280): Displayed com.android.systemui/.recents.RecentsActivity: +1s769ms
+09-19 22:26:37.572 E/Surface ( 2999): getSlotFromBufferLocked: unknown buffer: 0xab75a180
+09-19 22:26:37.628 W/SurfaceFlinger(  936): couldn't log to binary event log: overflow.
+09-19 22:26:38.307 W/EGL_emulation( 3165): eglSurfaceAttrib not implemented
+09-19 22:26:38.307 W/OpenGLRenderer( 3165): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad70d5c0, error=EGL_SUCCESS
+09-19 22:26:38.351 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:38.599 I/art     ( 3165): Background partial concurrent mark sweep GC freed 267(9KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 12MB/16MB, paused 76.146ms total 202.681ms
+09-19 22:26:40.862 W/art     ( 2999): Suspending all threads took: 551.418ms
+09-19 22:26:41.467 E/Surface ( 1350): getSlotFromBufferLocked: unknown buffer: 0xa2c18190
+09-19 22:26:41.568 I/Choreographer( 3165): Skipped 192 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:41.569 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:41.650 I/art     ( 3165): WaitForGcToComplete blocked for 45.946ms for cause Background
+09-19 22:26:41.897 I/art     ( 3165): Background sticky concurrent mark sweep GC freed 50(2368B) AllocSpace objects, 0(0B) LOS objects, 0% free, 18MB/18MB, paused 1.288ms total 246.841ms
+09-19 22:26:42.373 I/Choreographer( 3165): Skipped 47 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:42.399 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:42.425 I/art     ( 3165): Background sticky concurrent mark sweep GC freed 13(640B) AllocSpace objects, 0(0B) LOS objects, 0% free, 18MB/18MB, paused 15.435ms total 47.456ms
+09-19 22:26:43.015 I/Choreographer( 3165): Skipped 37 frames!  The application may be doing too much work on its main thread.
+09-19 22:26:43.016 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:43.430 W/art     ( 3165): Suspending all threads took: 8.911ms
+09-19 22:26:43.519 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:43.544 I/art     ( 3165): Background partial concurrent mark sweep GC freed 12(400B) AllocSpace objects, 1(6MB) LOS objects, 18% free, 17MB/21MB, paused 9.962ms total 126.978ms
+09-19 22:26:43.953 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:44.317 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:44.653 W/art     ( 3165): Attempt to remove non-JNI local reference, dumping thread
+09-19 22:26:50.858 I/ActivityManager( 1280): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+09-19 22:26:50.879 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:26:50.973 D/WebViewTimersControl( 3165): onBrowserActivityPause
+09-19 22:26:50.973 D/WebViewTimersControl( 3165): Pausing webview timers, view=com.android.browser.BrowserWebView{bf3ac0 VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 22:26:51.122 W/EGL_emulation( 2661): eglSurfaceAttrib not implemented
+09-19 22:26:51.122 W/OpenGLRenderer( 2661): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa147fdc0, error=EGL_SUCCESS
+09-19 22:26:51.145 I/art     ( 1280): Background partial concurrent mark sweep GC freed 2615(183KB) AllocSpace objects, 3(60KB) LOS objects, 33% free, 6MB/10MB, paused 16.678ms total 112.338ms
+09-19 22:26:51.306 E/Surface ( 3165): getSlotFromBufferLocked: unknown buffer: 0xb3f93110
+09-19 22:26:52.064 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:52.064 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:26:53.058 I/ActivityManager( 1280): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10014 on display 0
+09-19 22:26:53.153 D/AudioFlinger(  947): mixer(0xb4540000) throttle end: throttle time(88)
+09-19 22:26:53.267 E/Surface ( 2661): getSlotFromBufferLocked: unknown buffer: 0xa19887b0
+09-19 22:26:53.293 W/EGL_emulation( 1350): eglSurfaceAttrib not implemented
+09-19 22:26:53.293 W/OpenGLRenderer( 1350): Failed to set EGL_SWAP_BEHAVIOR on surface 0xb3f60780, error=EGL_SUCCESS
+09-19 22:26:54.188 I/Choreographer( 1350): Skipped 34 frames!  The application may be doing too much work on its main thread.
+09-19 22:27:01.353 D/Lifecycle_dpatel96( 2999): 11: onRestart() called:
+09-19 22:27:01.354 D/Lifecycle_dpatel96( 2999): 12: onStart() called:
+09-19 22:27:01.354 D/Lifecycle_dpatel96( 2999): 13: onResume() called:
+09-19 22:27:01.403 W/EGL_emulation( 2999): eglSurfaceAttrib not implemented
+09-19 22:27:01.403 W/OpenGLRenderer( 2999): Failed to set EGL_SWAP_BEHAVIOR on surface 0xabe6a3e0, error=EGL_SUCCESS
+09-19 22:27:01.942 I/Choreographer( 1350): Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-19 22:27:02.064 E/Surface ( 1350): getSlotFromBufferLocked: unknown buffer: 0xa2c18190
+09-19 22:27:02.859 D/Lifecycle_dpatel96( 2999): My First Button Hitted!
+09-19 22:27:02.892 D/        ( 1280): HostConnection::get() New Host Connection established 0x9d67fb80, tid 1292
+09-19 22:27:02.897 E/EGL_emulation(  936): tid 936: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 22:27:03.048 D/Lifecycle_dpatel96( 2999): 14: onPause() called:
+09-19 22:27:03.190 W/EGL_emulation( 2661): eglSurfaceAttrib not implemented
+09-19 22:27:03.190 W/OpenGLRenderer( 2661): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa18d57e0, error=EGL_SUCCESS
+09-19 22:27:04.026 I/Choreographer( 2661): Skipped 46 frames!  The application may be doing too much work on its main thread.
+09-19 22:27:04.113 E/Surface ( 2999): getSlotFromBufferLocked: unknown buffer: 0xab759e00
+09-19 22:27:04.180 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:27:04.180 W/OpenGLRenderer( 2661): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 22:27:04.241 I/art     ( 1350): Background partial concurrent mark sweep GC freed 2768(121KB) AllocSpace objects, 5(1248KB) LOS objects, 35% free, 7MB/11MB, paused 89.256ms total 132.043ms
+09-19 22:27:04.290 I/ActivityManager( 1280): Killing 2558:com.android.managedprovisioning/u0a9 (adj 15): empty #17
+09-19 22:27:04.309 D/Lifecycle_dpatel96( 2999): 15: onStop() called:
+09-19 22:27:04.309 D/Lifecycle_dpatel96( 2999): 16: onDestroy() called:
+09-19 22:27:04.494 W/SurfaceFlinger(  936): couldn't log to binary event log: overflow.

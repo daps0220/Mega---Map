@@ -1,0 +1,95 @@
+
+---------- LOG.TXT
+09-19 22:26:03.404 D/Lifecycle_dpatel96( 2999): 1: onCreate() called:
+
+// Once you run your application system calls onCreate() methods and application goes into "Created" state. This methods
+   runs only once for the entire life of activity.
+
+09-19 22:26:03.405 D/Lifecycle_dpatel96( 2999): 2: onStart() called:
+
+// Once the onCreate() finishes execution, the system calls onStart() methods in quick succession. Then application goes 
+   into "Started" state. Activity is visible to user.
+ 
+09-19 22:26:03.406 D/Lifecycle_dpatel96( 2999): 3: onResume() called:
+
+// onResume() callback methods is called quickly after onStart() methods and activity remains in the "Resumed"
+   state until something occurs to change the the state of application.
+
+// BACK key uses for closing the application and system calls 3 callback methods in quick succession described as follows.
+
+09-19 22:26:06.561 D/Lifecycle_dpatel96( 2999): 4: onPause() called:
+
+// When we clicked BACK key to close our application then system calls first onPause() method and application goes in
+   into "Paused" state which is partially visible to user. User can restart application from this state. 
+
+09-19 22:26:08.316 D/Lifecycle_dpatel96( 2999): 5: onStop() called:
+
+// After the execution of onPause() system calls onStop() very quickly the application is in "Stopped" state. Application is hidden
+   for user in this state. System can only start application from this state not directly resume an application. 
+
+09-19 22:26:08.316 D/Lifecycle_dpatel96( 2999): 6: onDestroy() called:
+
+// onDestroy() calls after the on onStop() in quick succession. onDestroy() finishes the life of activity. Now acitivity will be created 
+   again using onCreate(). 
+
+
+// Now we run our application after closing it by BACK key so that system calls onCreate() method and then it calls 
+   onStart() then onResume() in quick succession. So application goes into "Created" ---> "Statred(visible)" ---> "Restarted(visible)" 
+   states sequencially.
+
+09-19 22:26:15.066 D/Lifecycle_dpatel96( 2999): 1: onCreate() called:
+09-19 22:26:15.067 D/Lifecycle_dpatel96( 2999): 2: onStart() called:
+09-19 22:26:15.067 D/Lifecycle_dpatel96( 2999): 3: onResume() called:
+
+// As in step-6 we clicked HOME key to close our application then application goes into background and system calls onPause() method first
+   then calls onStop() method so that application is partially visible first and it is being hidden after onStop().
+
+
+// Application goes in "Paused (partially visible)" ---> "Stopped (hidden)" states. Application can restart from this states because it is still
+   in memory as runs in background.
+
+09-19 22:26:19.994 D/Lifecycle_dpatel96( 2999): 4: onPause() called:
+09-19 22:26:20.021 D/Lifecycle_dpatel96( 2999): 5: onStop() called:
+
+
+// As in step -7 we run another application it won't call any lifecycle method of our activity. But when we launch our application 
+   after closing other app then it restart from "Stopped" state and goes into "Started" state becuase system calls 
+   onRestart() methods. It unhiddes application method which calls onStart(). Then system calls onResume() methods quickly and 
+   app gose into "Resumed" which is visible to user.
+ 
+09-19 22:26:32.406 D/Lifecycle_dpatel96( 2999): 6: onRestart() called:
+09-19 22:26:32.437 D/Lifecycle_dpatel96( 2999): 7: onStart() called:
+09-19 22:26:32.437 D/Lifecycle_dpatel96( 2999): 8: onResume() called:
+
+// Now our application is in "Resumed" state then we click the HISTORY key and select another application as running application
+   then our app goes into background again from its "Resumed" state. It is still in memory and runs into backgrond.
+   So, system calls onPause() methods after selecting another app from HISTORY and the its successivily called onStop()
+   method. So now again app is hidden from user.
+
+// App is goes into following state : "Paused(partially visible)" ---> "Stopped(hidden)"
+
+09-19 22:26:35.436 D/Lifecycle_dpatel96( 2999): 9: onPause() called:
+09-19 22:26:36.356 D/Lifecycle_dpatel96( 2999): 10: onStop() called:
+
+// Then we close another running application by clicking HOME key but it won't effects our applciation activity lifecycle
+   It also won't effect when we run other application as in step - 10
+
+// As in step - 11 we select our application from HISTORY. So, system calls onRestart() methods and then onStart() then then application 
+   goes into "Started(visible)" state from its previous "Stopped" state. Then system calls onResume() quicky and it goes
+   into "Resumed" state.    
+
+09-19 22:27:01.353 D/Lifecycle_dpatel96( 2999): 11: onRestart() called:
+09-19 22:27:01.354 D/Lifecycle_dpatel96( 2999): 12: onStart() called:
+09-19 22:27:01.354 D/Lifecycle_dpatel96( 2999): 13: onResume() called:
+
+// As in step -12 we clicked "HIT" button from our screen. Then onclick method calls finish() method explicitly which is used for closing application 
+   from any state. So finish() methods calls onPause(),onStop() and onDestroy() in quick succession. onDestroy() is called this time because finish() is 
+   used for closing application. 
+
+// App goes into following state: "Paused(partially visible)" ---> "Stopped(hidden)" ---> "Destroyed" 
+
+09-19 22:27:02.859 D/Lifecycle_dpatel96( 2999): My First Button Hitted!
+09-19 22:27:03.048 D/Lifecycle_dpatel96( 2999): 14: onPause() called:
+09-19 22:27:04.309 D/Lifecycle_dpatel96( 2999): 15: onStop() called:
+09-19 22:27:04.309 D/Lifecycle_dpatel96( 2999): 16: onDestroy() called:
+

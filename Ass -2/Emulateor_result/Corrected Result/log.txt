@@ -1,0 +1,1668 @@
+--------- beginning of system
+09-19 14:32:30.656 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings (has extras)} from uid 10008 on display 0
+09-19 14:32:30.821 I/ActivityManager( 1300): Start proc 5172:com.android.settings/1000 for activity com.android.settings/.Settings
+--------- beginning of main
+09-19 14:32:30.874 I/art     ( 5172): Late-enabling JIT
+09-19 14:32:30.877 I/art     ( 5172): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:32:31.013 W/System  ( 5172): ClassLoader referenced unknown path: /system/priv-app/Settings/lib/x86
+09-19 14:32:31.880 E/SurfaceFlinger(  942): ro.sf.lcd_density must be defined as a build property
+09-19 14:32:31.880 D/OpenGLRenderer( 5172): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+09-19 14:32:31.884 D/        ( 5172): HostConnection::get() New Host Connection established 0xabeb1560, tid 5172
+09-19 14:32:32.335 D/DashboardSummary( 5172): rebuildUI took: 386 ms
+09-19 14:32:32.507 D/        ( 5172): HostConnection::get() New Host Connection established 0xabeb19e0, tid 5193
+09-19 14:32:32.544 I/OpenGLRenderer( 5172): Initialized EGL, version 1.4
+09-19 14:32:32.671 W/EGL_emulation( 5172): eglSurfaceAttrib not implemented
+09-19 14:32:32.671 W/OpenGLRenderer( 5172): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa2959680, error=EGL_SUCCESS
+09-19 14:32:33.100 I/IndexDatabaseHelper( 5172): Bootstrapped database
+09-19 14:32:33.128 W/art     ( 3288): Suspending all threads took: 40.522ms
+09-19 14:32:33.183 I/ActivityManager( 1300): Displayed com.android.settings/.Settings: +2s426ms
+09-19 14:32:33.198 I/IndexDatabaseHelper( 5172): Using schema version: 115
+09-19 14:32:33.199 I/IndexDatabaseHelper( 5172): Index is fine
+09-19 14:32:33.222 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0cec790
+09-19 14:32:33.703 V/NFC     ( 5172): this device does not have NFC support
+09-19 14:32:34.342 D/WifiService( 1300): New client listening to asynchronous messages
+09-19 14:32:34.430 E/BluetoothAdapter( 5172): Bluetooth binder is null
+09-19 14:32:34.568 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from uid 1000 on display 0
+09-19 14:32:34.696 D/SubSettings( 5172): Launching fragment com.android.settings.applications.ManageApplications
+09-19 14:32:35.156 W/EGL_emulation( 5172): eglSurfaceAttrib not implemented
+09-19 14:32:35.156 W/OpenGLRenderer( 5172): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa08f4240, error=EGL_SUCCESS
+09-19 14:32:35.239 I/art     ( 5172): Background sticky concurrent mark sweep GC freed 4010(350KB) AllocSpace objects, 1(84KB) LOS objects, 0% free, 3MB/3MB, paused 5.968ms total 534.374ms
+09-19 14:32:35.599 I/art     ( 5172): Background partial concurrent mark sweep GC freed 10177(462KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 3MB/6MB, paused 1.416ms total 226.427ms
+09-19 14:32:35.686 I/ActivityManager( 1300): Displayed com.android.settings/.SubSettings: +1s87ms
+09-19 14:32:36.086 D/Index   ( 5172): Indexing locale 'en_US' took 2849 millis
+09-19 14:32:36.173 E/Surface ( 5172): getSlotFromBufferLocked: unknown buffer: 0xb3fd3110
+09-19 14:32:36.265 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.266 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.618 I/art     ( 5172): Background partial concurrent mark sweep GC freed 3120(219KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 5MB/9MB, paused 11.396ms total 20.907ms
+09-19 14:32:36.943 I/art     ( 5232): Late-enabling JIT
+09-19 14:32:36.946 I/art     ( 5232): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:32:36.959 I/ActivityManager( 1300): Start proc 5232:com.android.defcontainer/u0a3 for service com.android.defcontainer/.DefaultContainerService
+09-19 14:32:36.972 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.973 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.973 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.973 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.976 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.977 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.977 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:36.977 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.001 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.032 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.034 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.049 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.052 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.055 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.059 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.061 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.061 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.061 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.062 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.064 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.065 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.065 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.065 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.067 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.067 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.071 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.073 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.080 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.083 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.086 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.089 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.094 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.097 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.101 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.103 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.107 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.110 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.112 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.116 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.122 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.127 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.131 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.136 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.142 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.145 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.151 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.155 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.164 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.167 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.169 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.170 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.176 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.176 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.177 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.177 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.180 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.181 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.181 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.181 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.187 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.187 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.187 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.187 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.240 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.249 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.249 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.254 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.255 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.255 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.256 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.306 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.340 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.344 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.349 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.354 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.356 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.359 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.360 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.365 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.365 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.366 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.366 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.368 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.368 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.381 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.385 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.390 W/installd(  954): Failed to open /data/data/android: No such file or directory
+09-19 14:32:37.393 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.396 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.400 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.403 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.409 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.413 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.416 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.419 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.422 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.422 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.423 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.423 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.425 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.425 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.426 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.426 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.427 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.427 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.432 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.437 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.442 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.445 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.449 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.452 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.457 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.461 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.464 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.467 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.474 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.476 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.497 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.502 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.527 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.532 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.535 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.540 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.547 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.550 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.552 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.556 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.562 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.566 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.569 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.573 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.580 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.584 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.586 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.590 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.593 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.593 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.594 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.595 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.599 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.599 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.599 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.600 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.602 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.602 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.602 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.602 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.606 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.606 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.607 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.607 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.633 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.634 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.634 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.634 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.646 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.646 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.646 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.647 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.666 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.666 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.666 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.666 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.669 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.670 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.670 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.670 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.678 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.679 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.679 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.679 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.685 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.685 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.686 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.686 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.693 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.696 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.699 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.702 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.708 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.711 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.715 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.719 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.723 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.723 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.723 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.724 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.727 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.729 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.729 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.730 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.730 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.731 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.732 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.732 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.732 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.735 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.735 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.736 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.736 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.738 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.738 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.739 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.739 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.741 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.741 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.741 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.741 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.743 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.744 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.744 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.744 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.746 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.746 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.747 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.747 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.758 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.758 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.759 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.759 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.761 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.761 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.762 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.762 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.764 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.765 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.765 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.765 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.770 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.770 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.770 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.771 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.773 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.773 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.773 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.774 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.775 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.776 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.776 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.776 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.778 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.779 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.779 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.779 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.788 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.788 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.789 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.789 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.794 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.794 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.795 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.795 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.818 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.818 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.819 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.819 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.821 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.821 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.821 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.821 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.824 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.824 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.824 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.825 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.826 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.826 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.827 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.827 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.842 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.842 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.843 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.843 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.845 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.847 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.869 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.869 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.870 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.870 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.877 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.877 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.877 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.894 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:37.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.126 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from uid 1000 on display 0
+09-19 14:32:38.197 D/SubSettings( 5172): Launching fragment com.android.settings.applications.InstalledAppDetails
+09-19 14:32:38.335 W/ContextImpl( 5172): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:763 android.content.ContextWrapper.sendBroadcast:396 com.android.settings.applications.PermissionsSummaryHelper.sendPermissionRequest:61 com.android.settings.applications.PermissionsSummaryHelper.getPermissionSummary:34 com.android.settings.applications.InstalledAppDetails.refreshUi:504 
+09-19 14:32:38.338 D/Settings( 5172): Have 0 number of activities in preferred list
+09-19 14:32:38.360 I/ActivityManager( 1300): Start proc 5256:com.android.packageinstaller/u0a10 for broadcast com.android.packageinstaller/.permission.model.PermissionStatusReceiver
+09-19 14:32:38.491 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.495 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:38.499 I/art     ( 5256): Late-enabling JIT
+09-19 14:32:38.502 I/art     ( 5256): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:32:38.600 W/System  ( 5256): ClassLoader referenced unknown path: /system/priv-app/PackageInstaller/lib/x86
+09-19 14:32:38.697 I/Choreographer( 5172): Skipped 30 frames!  The application may be doing too much work on its main thread.
+09-19 14:32:38.861 W/EGL_emulation( 5172): eglSurfaceAttrib not implemented
+09-19 14:32:38.861 W/OpenGLRenderer( 5172): Failed to set EGL_SWAP_BEHAVIOR on surface 0xab773540, error=EGL_SUCCESS
+09-19 14:32:38.988 I/ActivityManager( 1300): Killing 2157:com.android.exchange/u0a30 (adj 15): empty #17
+09-19 14:32:39.302 E/BluetoothAdapter( 1300): Bluetooth binder is null
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): Failed to read cpu-freq
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at java.io.FileReader.<init>(FileReader.java:66)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at com.android.internal.os.KernelCpuSpeedReader.readDelta(KernelCpuSpeedReader.java:49)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at com.android.internal.os.BatteryStatsImpl.updateCpuTimeLocked(BatteryStatsImpl.java:8003)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at com.android.server.am.BatteryStatsService.updateExternalStats(BatteryStatsService.java:1364)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at com.android.server.am.BatteryStatsService.getStatisticsStream(BatteryStatsService.java:311)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at com.android.internal.app.IBatteryStats$Stub.onTransact(IBatteryStats.java:178)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at android.os.Binder.execTransact(Binder.java:453)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at libcore.io.Posix.open(Native Method)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-19 14:32:39.306 E/KernelCpuSpeedReader( 1300): 	... 9 more
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): Failed to read uid_cputime
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): java.io.FileNotFoundException: /proc/uid_cputime/show_uid_stat: open failed: ENOENT (No such file or directory)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileReader.<init>(FileReader.java:66)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at com.android.internal.os.KernelUidCpuTimeReader.readDelta(KernelUidCpuTimeReader.java:71)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at com.android.internal.os.BatteryStatsImpl.updateCpuTimeLocked(BatteryStatsImpl.java:8032)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.am.BatteryStatsService.updateExternalStats(BatteryStatsService.java:1364)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.am.BatteryStatsService.getStatisticsStream(BatteryStatsService.java:311)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at com.android.internal.app.IBatteryStats$Stub.onTransact(IBatteryStats.java:178)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at android.os.Binder.execTransact(Binder.java:453)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.Posix.open(Native Method)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-19 14:32:39.307 E/KernelUidCpuTimeReader( 1300): 	... 9 more
+09-19 14:32:39.329 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.330 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.333 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.334 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.336 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.336 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.336 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.337 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.337 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.339 W/art     ( 1300): Long monitor contention event with owner method=void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean) from BroadcastQueue.java:639 waiters=0 for 353ms
+09-19 14:32:39.350 I/ActivityManager( 1300): Displayed com.android.settings/.SubSettings: +1s179ms
+09-19 14:32:39.372 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.373 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.373 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.374 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.374 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.375 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.375 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.377 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.377 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.377 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.377 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.502 E/Surface ( 5172): getSlotFromBufferLocked: unknown buffer: 0xb3fd3e30
+09-19 14:32:39.503 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.504 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.563 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.564 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.565 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.565 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.566 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.566 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.800 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.800 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.800 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.801 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.802 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.802 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.803 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.803 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.805 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.805 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.806 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.806 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.843 W/ContextImpl( 5172): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:763 android.content.ContextWrapper.sendBroadcast:396 com.android.settings.applications.PermissionsSummaryHelper.sendPermissionRequest:61 com.android.settings.applications.PermissionsSummaryHelper.getPermissionSummary:34 com.android.settings.applications.InstalledAppDetails.refreshUi:504 
+09-19 14:32:39.844 D/Settings( 5172): Have 0 number of activities in preferred list
+09-19 14:32:39.905 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.921 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.922 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.922 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.924 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.924 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.925 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.925 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.927 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.927 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.945 W/ProcStatsManager( 5172): No process com.android.providers.calendar/10001 for service com.android.providers.calendar.EmptyService
+09-19 14:32:39.945 W/ProcStatsManager( 5172): No process com.android.providers.calendar/10001 for service com.android.providers.calendar.CalendarProviderIntentService
+09-19 14:32:39.945 W/ProcStatsManager( 5172): No process android.process.media/10005 for service com.android.providers.media.MediaScannerService
+09-19 14:32:39.946 W/ProcStatsManager( 5172): No process android.process.media/10005 for service com.android.providers.downloads.DownloadService
+09-19 14:32:39.946 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.action.BackgroundWorkerService
+09-19 14:32:39.946 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.action.ActionServiceImpl
+09-19 14:32:39.946 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.sticker.StickerSyncService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.android.printspooler/10044 for service com.android.printspooler.model.PrintSpoolerService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.android.keychain/1000 for service com.android.keychain.KeyChainService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.android.dialer/10004 for service com.android.dialer.calllog.CallLogNotificationsService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.people.service.bg.PeopleBackgroundTasks
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms.unstable/10007 for service com.google.android.gms.droidguard.DroidGuardService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.common.download.DownloadService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.auth.api.credentials.sync.CredentialSyncReceiverService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.auth.authzen.GcmReceiverService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.usagereporting.service.UsageReportingService
+09-19 14:32:39.947 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.tron.CollectionService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.config.ConfigFetchService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.update.SystemUpdateService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.analytics.service.RefreshEnabledStateService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.checkin.CheckinService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.checkin.EventLogService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.app.service.PackageBroadcastService
+09-19 14:32:39.948 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.service.RemindersProviderChangeService
+09-19 14:32:39.961 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.961 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.962 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.962 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.963 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.963 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.964 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.964 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.965 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.965 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.967 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.967 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.967 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:39.981 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.verifier.InternalApkUploadService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.chromesync.sync.SyncReceiverService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.icing.service.IndexWorkerService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.snet.SafeBrowsingUpdateIntentService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.ads.jams.NegotiationService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.analytics.service.PlayLogMonitorIntervalService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.herrevad.services.NetworkQualityService$NetworkQualityWorkerService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.snet.SnetAlarmService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.common.download.DownloadCompleteIntentService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.notification.NotificationService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.app.service.BootCompletedBroadcastService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.provider.TimeZoneChangeService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.vision.VisionDependencyIntentServiceProxy
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.init.InitializeIntentService
+09-19 14:32:39.982 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.gcm.gmsproc.GcmReceiverService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms.wearable/10007 for service com.google.android.gms.wearable.service.WearableService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.kids.chimera.KidsApiServiceProxy
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.chimera.container.FileApkService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.gcm.PushMessagingRegistrarProxy
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.icing.service.IndexService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.mdm.services.NetworkQualityAndroidService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms.wearable/10007 for service com.google.android.gms.wearable.service.WearableControlService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.libraries.social.mediamonitor.MediaMonitorIntentService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.android.email/10028 for service com.android.email.service.EmailBroadcastProcessorService
+09-19 14:32:39.983 W/ProcStatsManager( 5172): No process com.android.exchange/10030 for service com.android.exchange.service.EasService
+09-19 14:32:40.054 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.056 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.057 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.057 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.057 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.android.providers.calendar/10001 for service com.android.providers.calendar.EmptyService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.android.providers.calendar/10001 for service com.android.providers.calendar.CalendarProviderIntentService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process android.process.media/10005 for service com.android.providers.media.MediaScannerService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process android.process.media/10005 for service com.android.providers.downloads.DownloadService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.action.BackgroundWorkerService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.action.ActionServiceImpl
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.google.android.apps.messaging/10043 for service com.google.android.apps.messaging.datamodel.sticker.StickerSyncService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.android.printspooler/10044 for service com.android.printspooler.model.PrintSpoolerService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.android.keychain/1000 for service com.android.keychain.KeyChainService
+09-19 14:32:40.074 W/ProcStatsManager( 5172): No process com.android.dialer/10004 for service com.android.dialer.calllog.CallLogNotificationsService
+09-19 14:32:40.075 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.people.service.bg.PeopleBackgroundTasks
+09-19 14:32:40.075 W/ProcStatsManager( 5172): No process com.google.android.gms.unstable/10007 for service com.google.android.gms.droidguard.DroidGuardService
+09-19 14:32:40.075 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService
+09-19 14:32:40.075 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.common.download.DownloadService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.auth.api.credentials.sync.CredentialSyncReceiverService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.auth.authzen.GcmReceiverService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.usagereporting.service.UsageReportingService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.tron.CollectionService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.config.ConfigFetchService
+09-19 14:32:40.076 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.update.SystemUpdateService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.analytics.service.RefreshEnabledStateService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.checkin.CheckinService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.checkin.EventLogService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.app.service.PackageBroadcastService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.service.RemindersProviderChangeService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.verifier.InternalApkUploadService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.chromesync.sync.SyncReceiverService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.icing.service.IndexWorkerService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.snet.SafeBrowsingUpdateIntentService
+09-19 14:32:40.077 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.ads.jams.NegotiationService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.analytics.service.PlayLogMonitorIntervalService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.herrevad.services.NetworkQualityService$NetworkQualityWorkerService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.security.snet.SnetAlarmService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.common.download.DownloadCompleteIntentService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.notification.NotificationService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.app.service.BootCompletedBroadcastService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.reminders.provider.TimeZoneChangeService
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.vision.VisionDependencyIntentServiceProxy
+09-19 14:32:40.078 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.init.InitializeIntentService
+09-19 14:32:40.092 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.094 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.095 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.095 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.095 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.097 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.098 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.098 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.098 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.117 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.gcm.gmsproc.GcmReceiverService
+09-19 14:32:40.117 W/ProcStatsManager( 5172): No process com.google.android.gms.wearable/10007 for service com.google.android.gms.wearable.service.WearableService
+09-19 14:32:40.117 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.kids.chimera.KidsApiServiceProxy
+09-19 14:32:40.131 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.chimera.container.FileApkService
+09-19 14:32:40.131 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.gcm.PushMessagingRegistrarProxy
+09-19 14:32:40.131 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.icing.service.IndexService
+09-19 14:32:40.132 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.gms.mdm.services.NetworkQualityAndroidService
+09-19 14:32:40.132 W/ProcStatsManager( 5172): No process com.google.android.gms.wearable/10007 for service com.google.android.gms.wearable.service.WearableControlService
+09-19 14:32:40.132 W/ProcStatsManager( 5172): No process com.google.android.gms/10007 for service com.google.android.libraries.social.mediamonitor.MediaMonitorIntentService
+09-19 14:32:40.132 W/ProcStatsManager( 5172): No process com.android.email/10028 for service com.android.email.service.EmailBroadcastProcessorService
+09-19 14:32:40.132 W/ProcStatsManager( 5172): No process com.android.exchange/10030 for service com.android.exchange.service.EasService
+09-19 14:32:40.157 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.160 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.164 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.167 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.173 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.176 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.180 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.183 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.189 W/installd(  954): Failed to open /data/data/android: No such file or directory
+09-19 14:32:40.191 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.194 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.197 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.204 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.210 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.210 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.211 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.211 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.212 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.212 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.213 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.213 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.215 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.215 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.215 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.216 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.217 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.237 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.243 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.247 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.254 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.257 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.277 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.280 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.281 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.282 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.282 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.282 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.283 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.284 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.284 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.284 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.286 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.287 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.287 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.287 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.297 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.305 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.311 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.311 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.313 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.314 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.314 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.315 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.317 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.317 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.317 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.317 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.319 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.320 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.320 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.320 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.322 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.322 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.322 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.323 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.324 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.325 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.325 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.325 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.327 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.327 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.327 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.464 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.525 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.659 I/ActivityManager( 1300): START u0 {act=android.intent.action.UNINSTALL_PACKAGE dat=package:dpatel96_a2.cs442.com.activitylifecycle cmp=com.android.packageinstaller/.UninstallerActivity (has extras)} from uid 1000 on display 0
+09-19 14:32:40.665 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.789 I/art     ( 5172): Background sticky concurrent mark sweep GC freed 19465(1114KB) AllocSpace objects, 7(248KB) LOS objects, 15% free, 7MB/9MB, paused 1.403ms total 159.482ms
+09-19 14:32:40.949 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:40.952 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.022 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.027 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.029 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.030 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.031 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.031 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.032 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.032 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.033 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.033 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.034 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.034 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.146 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.150 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.153 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.157 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.183 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.186 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.186 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.186 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.187 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.236 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.240 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.243 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.246 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.253 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.257 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.296 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.297 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.312 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.352 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.356 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.508 I/art     ( 1300): Background sticky concurrent mark sweep GC freed 23578(1854KB) AllocSpace objects, 26(876KB) LOS objects, 30% free, 7MB/10MB, paused 20.093ms total 73.231ms
+09-19 14:32:41.641 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.647 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.650 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.653 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.656 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.670 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.673 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.675 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.679 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.680 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.681 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.681 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.681 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.682 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.683 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.683 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.683 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.685 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.685 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.685 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.686 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.687 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.687 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.687 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.688 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.697 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.698 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.698 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.699 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.700 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.701 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.701 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.701 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.702 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.703 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.703 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.703 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.705 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.705 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.705 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.705 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.707 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.707 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.707 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.719 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.721 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.721 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.721 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.722 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.723 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.723 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.724 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.724 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.726 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.727 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.738 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.743 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.747 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.752 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.756 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.759 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.762 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.766 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.769 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.773 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.777 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.779 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.782 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.782 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.782 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.782 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.784 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.784 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.784 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.785 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.786 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.787 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.787 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.787 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.793 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.797 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.800 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.807 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.811 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.811 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.812 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.812 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.813 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.813 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.813 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.814 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.815 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.815 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.816 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.816 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.817 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.817 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.825 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.827 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.832 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.834 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.837 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.841 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.845 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.849 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.852 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.854 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:41.893 E/SurfaceFlinger(  942): ro.sf.lcd_density must be defined as a build property
+09-19 14:32:41.897 D/OpenGLRenderer( 5256): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+09-19 14:32:41.903 D/        ( 5256): HostConnection::get() New Host Connection established 0xaf87c0b0, tid 5256
+09-19 14:32:41.961 D/        ( 5256): HostConnection::get() New Host Connection established 0xaf87c3f0, tid 5298
+09-19 14:32:41.972 I/OpenGLRenderer( 5256): Initialized EGL, version 1.4
+09-19 14:32:42.026 W/EGL_emulation( 5256): eglSurfaceAttrib not implemented
+09-19 14:32:42.026 W/OpenGLRenderer( 5256): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad762f40, error=EGL_SUCCESS
+09-19 14:32:42.385 W/EGL_emulation( 5256): eglSurfaceAttrib not implemented
+09-19 14:32:42.385 W/OpenGLRenderer( 5256): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad762f60, error=EGL_SUCCESS
+09-19 14:32:42.753 I/ActivityManager( 1300): Displayed com.android.packageinstaller/.UninstallerActivity: +2s36ms
+09-19 14:32:43.839 I/ActivityManager( 1300): START u0 {act=android.intent.action.VIEW cmp=com.android.packageinstaller/.UninstallAppProgress (has extras)} from uid 10010 on display 0
+09-19 14:32:43.867 E/Surface ( 5256): getSlotFromBufferLocked: unknown buffer: 0xabeeb960
+09-19 14:32:43.873 D/OpenGLRenderer( 5256): endAllStagingAnimators on 0xa359ea80 (RippleDrawable) with handle 0xaf87c790
+09-19 14:32:43.944 E/Surface ( 5256): getSlotFromBufferLocked: unknown buffer: 0xabeeb8f0
+09-19 14:32:43.956 E/Surface ( 5172): getSlotFromBufferLocked: unknown buffer: 0xa08c4300
+09-19 14:32:44.020 I/ActivityManager( 1300): Force stopping dpatel96_a2.cs442.com.activitylifecycle appid=10057 user=-1: uninstall pkg
+09-19 14:32:44.029 I/ActivityManager( 1300): Killing 3288:dpatel96_a2.cs442.com.activitylifecycle/u0a57 (adj 9): stop dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:44.045 W/EGL_emulation( 5256): eglSurfaceAttrib not implemented
+09-19 14:32:44.045 W/OpenGLRenderer( 5256): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad762f60, error=EGL_SUCCESS
+09-19 14:32:44.626 W/art     ( 1300): Long monitor contention event with owner method=void com.android.server.pm.PackageManagerService.removePackageDataLI(com.android.server.pm.PackageSetting, int[], boolean[], com.android.server.pm.PackageManagerService$PackageRemovedInfo, int, boolean) from PackageManagerService.java:12811 waiters=0 for 257ms
+09-19 14:32:44.685 I/art     ( 1300): Starting a blocking GC Explicit
+09-19 14:32:44.779 E/libprocessgroup( 1300): failed to kill 1 processes for processgroup 3288
+09-19 14:32:44.821 I/Choreographer( 5256): Skipped 38 frames!  The application may be doing too much work on its main thread.
+09-19 14:32:44.823 W/art     ( 1300): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$MainHandler.handleMessage(android.os.Message) from ActivityManagerService.java:1698 waiters=0 for 803ms
+09-19 14:32:44.831 I/ActivityManager( 1300): Displayed com.android.packageinstaller/.UninstallAppProgress: +917ms
+09-19 14:32:45.159 I/art     ( 1300): Explicit concurrent mark sweep GC freed 12625(770KB) AllocSpace objects, 8(336KB) LOS objects, 33% free, 6MB/10MB, paused 1.739ms total 472.366ms
+09-19 14:32:45.164 W/PackageManager( 1300): Couldn't remove dex file for package:  at location /data/app/dpatel96_a2.cs442.com.activitylifecycle-2/base.apk, retcode=-1
+09-19 14:32:45.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:45.230 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:45.230 I/ActivityManager( 1300): Force stopping dpatel96_a2.cs442.com.activitylifecycle appid=10057 user=0: pkg removed
+09-19 14:32:45.240 D/GraphicsStats( 1300): Buffer count: 5
+09-19 14:32:45.279 W/EGL_emulation( 5256): eglSurfaceAttrib not implemented
+09-19 14:32:45.279 W/OpenGLRenderer( 5256): Failed to set EGL_SWAP_BEHAVIOR on surface 0xaf7a9840, error=EGL_SUCCESS
+09-19 14:32:45.312 E/AppInfoBase( 5172): Exception when retrieving package:dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:45.312 E/AppInfoBase( 5172): android.content.pm.PackageManager$NameNotFoundException: dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:137)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at com.android.settings.applications.AppInfoBase.retrieveAppEntry(AppInfoBase.java:123)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at com.android.settings.applications.InstalledAppDetails.refreshUi(InstalledAppDetails.java:466)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at com.android.settings.applications.InstalledAppDetails.onActivityResult(InstalledAppDetails.java:435)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.Activity.dispatchActivityResult(Activity.java:6452)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:3695)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3742)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1393)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.os.Looper.loop(Looper.java:148)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at java.lang.reflect.Method.invoke(Native Method)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+09-19 14:32:45.312 E/AppInfoBase( 5172): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+09-19 14:32:45.583 I/art     ( 1492): Background partial concurrent mark sweep GC freed 3374(152KB) AllocSpace objects, 1(24KB) LOS objects, 39% free, 4MB/7MB, paused 1.822ms total 221.525ms
+09-19 14:32:45.762 W/art     ( 1300): Long monitor contention event with owner method=int com.android.server.am.ActivityManagerService.broadcastIntent(android.app.IApplicationThread, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], int, android.os.Bundle, boolean, boolean, int) from ActivityManagerService.java:16907 waiters=0 for 433ms
+09-19 14:32:45.776 E/Surface ( 5256): getSlotFromBufferLocked: unknown buffer: 0xabeeb8f0
+09-19 14:32:45.785 D/CarrierServiceBindHelper( 1701): Receive action: android.intent.action.PACKAGE_REMOVED
+09-19 14:32:45.791 W/ContextImpl( 5172): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:763 android.content.ContextWrapper.sendBroadcast:396 com.android.settings.applications.PermissionsSummaryHelper.sendPermissionRequest:61 com.android.settings.applications.PermissionsSummaryHelper.getPermissionSummary:34 com.android.settings.applications.InstalledAppDetails.refreshUi:504 
+09-19 14:32:45.796 D/Settings( 5172): Have 0 number of activities in preferred list
+09-19 14:32:45.805 I/LatinIME:LogUtils( 1665): Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+09-19 14:32:45.868 W/GeofencerStateMachine( 1766): Ignoring removeGeofence because network location is disabled.
+09-19 14:32:45.910 I/art     ( 5256): Background partial concurrent mark sweep GC freed 21456(874KB) AllocSpace objects, 0(0B) LOS objects, 45% free, 1210KB/2MB, paused 1.472ms total 166.576ms
+09-19 14:32:45.910 D/JobSchedulerService( 1300): Receieved: android.intent.action.PACKAGE_REMOVED
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): failed to remove uid from uid_cputime module
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): java.io.FileNotFoundException: /proc/uid_cputime/remove_uid_range: open failed: ENOENT (No such file or directory)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at java.io.FileWriter.<init>(FileWriter.java:80)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.internal.os.KernelUidCpuTimeReader.removeUid(KernelUidCpuTimeReader.java:157)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.internal.os.BatteryStatsImpl.removeUidStatsLocked(BatteryStatsImpl.java:8801)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.am.BatteryStatsService.removeUid(BatteryStatsService.java:242)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:16540)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:16914)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.pm.PackageManagerService$8.run(PackageManagerService.java:9389)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at android.os.Handler.handleCallback(Handler.java:739)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at android.os.Looper.loop(Looper.java:148)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.Posix.open(Native Method)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-19 14:32:45.916 E/KernelUidCpuTimeReader( 1300): 	... 14 more
+09-19 14:32:45.919 I/InputReader( 1300): Reconfiguring input devices.  changes=0x00000010
+09-19 14:32:45.952 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:45.952 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:46.064 W/EGL_emulation( 5172): eglSurfaceAttrib not implemented
+09-19 14:32:46.064 W/OpenGLRenderer( 5172): Failed to set EGL_SWAP_BEHAVIOR on surface 0xab773540, error=EGL_SUCCESS
+09-19 14:32:46.384 D/GCM-PT  ( 1871): Populating db of packages that use GCM
+09-19 14:32:46.586 D/VoicemailCleanupService( 1534): Cleaning up data for package: dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:46.893 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:46.893 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.004 E/NetworkScheduler.SchedulerReceiver( 1871): Invalid parameter app
+09-19 14:32:47.004 E/NetworkScheduler.SchedulerReceiver( 1871): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+09-19 14:32:47.104 D/PackageBroadcastService( 2019): Received broadcast action=android.intent.action.PACKAGE_REMOVED and uri=dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:47.129 D/AccountUtils( 2019): Clearing selected account for dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:47.167 I/LocationSettingsChecker( 2019): Removing dialog suppression flag for package dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:47.205 W/art     ( 5172): Long monitor contention event with owner method=void com.android.settingslib.applications.ApplicationsState$BackgroundHandler.handleMessage(android.os.Message) from ApplicationsState.java:850 waiters=0 for 118ms
+09-19 14:32:47.226 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.229 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.229 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.231 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.232 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.232 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.232 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.234 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.235 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.235 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.236 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.237 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.237 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.237 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.239 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.241 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.242 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.242 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.242 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.246 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.246 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.247 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.247 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.401 D/ChimeraCfgMgr( 2019): Loading module com.google.android.gms.games from APK com.google.android.gms
+09-19 14:32:47.408 W/ContextImpl( 2573): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2725 
+09-19 14:32:47.535 I/art     ( 5352): Late-enabling JIT
+09-19 14:32:47.538 I/art     ( 5352): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:32:47.559 I/ActivityManager( 1300): Start proc 5352:com.android.documentsui/u0a27 for broadcast com.android.documentsui/.PackageReceiver
+09-19 14:32:47.647 I/GMPM-SVC( 2019): App measurement is starting up
+09-19 14:32:47.666 I/ConfigService( 1871): onCreate
+09-19 14:32:47.667 I/ConfigFetchService( 2019): onStartCommand Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:dpatel96_a2.cs442.com.activitylifecycle cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+09-19 14:32:47.734 D/GOOGLEHELP_CompatibleDatabase( 2019): Open SQLiteDatabase: /data/user/0/com.google.android.gms/databases/metrics.db, release reference: 1
+09-19 14:32:47.735 D/GOOGLEHELP_CompatibleDatabase( 2019): Acquire reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/metrics.db: 2
+09-19 14:32:47.735 D/gH_MetricsDatabase( 2019): 0 metrics were deleted when clearing package dpatel96_a2.cs442.com.activitylifecycle.
+09-19 14:32:47.735 D/GOOGLEHELP_CompatibleDatabase( 2019): Release reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/metrics.db: 1
+09-19 14:32:47.769 E/GMPM-SVC( 2019): AppMeasurementService not registered/enabled
+09-19 14:32:47.769 E/GMPM-SVC( 2019): Uploading is not possible. App measurement disabled
+09-19 14:32:47.798 W/BaseAppContext( 2019): Using Auth Proxy for data requests.
+09-19 14:32:47.803 W/BaseAppContext( 2019): Using Auth Proxy for data requests.
+09-19 14:32:47.821 I/Icing   ( 2019): doRemovePackageData dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:32:47.838 I/PeopleContactsSync( 2019): CP2 sync disabled
+09-19 14:32:47.842 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.843 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.843 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.843 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.847 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.847 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.887 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.891 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.894 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.927 D/GOOGLEHELP_CompatibleDatabase( 2019): Open SQLiteDatabase: /data/user/0/com.google.android.gms/databases/help_responses.db, release reference: 1
+09-19 14:32:47.927 D/GOOGLEHELP_CompatibleDatabase( 2019): Acquire reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/help_responses.db: 2
+09-19 14:32:47.948 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.952 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.954 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.955 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:47.956 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.019 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.024 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.028 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.030 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.033 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.033 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.034 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.034 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.037 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.082 E/StrictMode( 1871): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+09-19 14:32:48.082 E/StrictMode( 1871): java.lang.Throwable: Explicit termination method 'end' not called
+09-19 14:32:48.082 E/StrictMode( 1871): 	at dalvik.system.CloseGuard.open(CloseGuard.java:180)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at java.util.zip.Inflater.<init>(Inflater.java:82)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.okio.GzipSource.<init>(GzipSource.java:62)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.http.HttpEngine.unzip(HttpEngine.java:645)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:827)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:439)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:384)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:497)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:105)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.a(SourceFile:811)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.a(SourceFile:776)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.execute(SourceFile:676)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.execute(SourceFile:660)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.j.a(SourceFile:220)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:263)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:132)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.b.a(SourceFile:43)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.b.a(SourceFile:62)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:120)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:61)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.cron.AuthCronService.a(SourceFile:44)
+09-19 14:32:48.082 E/StrictMode( 1871): 	at com.google.android.gms.gcm.al.run(SourceFile:135)
+09-19 14:32:48.090 D/GOOGLEHELP_CompatibleDatabase( 2019): Release reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/help_responses.db: 1
+09-19 14:32:48.118 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.121 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.124 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.166 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.173 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.176 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.181 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.184 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.185 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.185 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.186 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.207 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.210 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.211 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.223 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.235 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.236 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.244 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.247 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.253 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.256 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.260 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.262 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.267 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.270 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.275 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.277 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.283 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.285 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.289 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.291 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.297 W/installd(  954): Failed to open /data/data/android: No such file or directory
+09-19 14:32:48.301 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.304 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.307 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.310 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.315 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.317 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.320 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.323 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.329 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.332 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.334 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.337 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.347 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.351 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.355 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.365 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.373 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.376 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.380 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.384 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.392 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.396 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.400 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.404 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.409 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:48.451 D/GOOGLEHELP_CompatibleDatabase( 2019): Open SQLiteDatabase: /data/user/0/com.google.android.gms/databases/auto_complete_suggestions.db, release reference: 1
+09-19 14:32:48.451 D/GOOGLEHELP_CompatibleDatabase( 2019): Acquire reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/auto_complete_suggestions.db: 2
+09-19 14:32:48.452 D/GOOGLEHELP_CompatibleDatabase( 2019): Release reference of SQLiteDatabase: /data/user/0/com.google.android.gms/databases/auto_complete_suggestions.db: 1
+09-19 14:32:48.452 D/GOOGLEHELP_CompatibleDatabase( 2019): Close SQLiteDatabase: /data/user/0/com.google.android.gms/databases/metrics.db, release reference: 0
+09-19 14:32:48.453 D/GOOGLEHELP_CompatibleDatabase( 2019): Close SQLiteDatabase: /data/user/0/com.google.android.gms/databases/help_responses.db, release reference: 0
+09-19 14:32:48.453 D/GOOGLEHELP_CompatibleDatabase( 2019): Close SQLiteDatabase: /data/user/0/com.google.android.gms/databases/auto_complete_suggestions.db, release reference: 0
+09-19 14:32:48.500 E/ConnectivityChangeReceiver( 2019): Ignoring connectivity change
+09-19 14:32:48.523 D/ConnectivityService( 1300): listenForNetwork for Listen from uid/pid:10007/2019 for NetworkRequest [ id=4, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-19 14:32:48.524 D/ConnectivityService( 1300): rematching NetworkAgentInfo [MOBILE (UMTS) - 100]
+09-19 14:32:48.550 D/ConnectivityManager.CallbackHandler( 2019): CM callback handler got msg 524290
+09-19 14:32:48.737 E/Surface ( 5256): getSlotFromBufferLocked: unknown buffer: 0xabeed090
+09-19 14:32:49.057 W/DriveInitializer( 2019): Awaiting to be initialized
+09-19 14:32:49.077 W/DriveInitializer( 2019): Background init thread started
+09-19 14:32:49.124 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.127 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.130 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.132 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.133 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.133 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.133 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.135 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.135 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.136 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.136 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.138 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.138 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.162 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.164 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.171 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.174 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.204 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.206 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.227 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.305 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.408 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.487 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.489 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.492 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.492 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.492 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.492 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.494 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.495 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.495 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.495 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.497 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.497 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.497 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.498 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.511 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.512 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.512 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.512 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.550 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.550 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.551 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.551 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.559 W/art     ( 2019): Long monitor contention event with owner method=long java.lang.System.currentTimeMillis!() from System.java:4294967294 waiters=0 for 380ms
+09-19 14:32:49.573 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.577 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.580 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.582 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.587 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.597 I/AccountManagerService( 1300): getTypesVisibleToCaller: isPermitted? true
+09-19 14:32:49.600 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.604 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.604 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.604 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.604 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:32:49.639 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.643 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.646 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.651 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.651 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.651 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.651 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.653 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.654 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.654 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.654 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.656 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.656 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.657 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.657 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.658 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.666 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.667 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.670 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.674 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.677 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.681 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.683 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.687 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.797 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.802 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.805 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.805 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.806 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.806 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:32:49.807 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:32:49.807 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:32:49.807 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:32:49.818 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.821 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.825 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.825 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.825 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.826 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:32:49.826 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:32:49.826 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:32:49.826 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:32:49.837 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.842 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.846 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.847 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:32:49.847 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:32:49.847 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:32:49.847 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:32:49.863 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.865 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.867 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.873 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.875 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.879 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.882 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.887 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.889 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.889 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.890 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.892 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.892 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.893 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.893 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.894 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.895 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.895 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.895 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.897 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.898 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.898 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.906 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.907 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.912 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.914 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.922 W/DriveInitializer( 2019): Background init thread ended
+09-19 14:32:49.941 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.941 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.944 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.945 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.958 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.962 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.965 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.968 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.974 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.975 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.975 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.976 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.977 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.978 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.978 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.978 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.981 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.981 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.981 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.982 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.984 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.984 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.984 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.985 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.986 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.987 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.987 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.987 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:49.989 W/System  ( 5352): ClassLoader referenced unknown path: /system/app/DocumentsUI/lib/x86
+09-19 14:32:50.022 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.026 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.032 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.036 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.044 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.046 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.049 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.052 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.059 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.074 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.078 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.081 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.088 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.088 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.089 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.089 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.093 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.095 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.096 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.096 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.096 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.100 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.100 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.100 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.101 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.105 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.105 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.105 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.105 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.107 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.107 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.108 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.212 I/ActivityManager( 1300): Start proc 5411:com.android.externalstorage/u0a6 for content provider com.android.externalstorage/.ExternalStorageProvider
+09-19 14:32:50.213 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.220 I/art     ( 5411): Late-enabling JIT
+09-19 14:32:50.222 I/art     ( 5411): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:32:50.324 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.325 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.326 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.326 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.330 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.330 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.330 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.330 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.332 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.332 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.332 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.332 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.335 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.338 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.338 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.338 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.338 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.341 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.341 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.341 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.341 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:32:50.382 W/System  ( 5411): ClassLoader referenced unknown path: /system/priv-app/ExternalStorageProvider/lib/x86
+09-19 14:32:50.385 D/ExternalStorage( 5411): After updating volumes, found 0 active roots
+09-19 14:32:50.418 D/Documents( 5352): Update found 5 roots in 226ms
+09-19 14:32:50.429 D/Documents( 5352): Update found 5 roots in 42ms
+09-19 14:32:50.491 I/ActivityManager( 1300): Killing 2064:com.google.android.apps.maps/u0a37 (adj 15): empty #17
+09-19 14:32:51.104 W/EGL_emulation( 5172): eglSurfaceAttrib not implemented
+09-19 14:32:51.104 W/OpenGLRenderer( 5172): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa08f3e20, error=EGL_SUCCESS
+09-19 14:32:51.526 D/PhoneStatusBar( 1492): disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock search quick_settings >
+09-19 14:32:52.805 E/Surface ( 1492): getSlotFromBufferLocked: unknown buffer: 0xa34046f0
+09-19 14:32:52.825 I/ConfigService( 1871): onDestroy
+09-19 14:32:52.840 W/EGL_emulation( 1492): eglSurfaceAttrib not implemented
+09-19 14:32:52.840 W/OpenGLRenderer( 1492): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa219a8c0, error=EGL_SUCCESS
+09-19 14:32:52.914 D/DashboardSummary( 5172): rebuildUI took: 140 ms
+09-19 14:32:52.917 I/Choreographer( 1492): Skipped 79 frames!  The application may be doing too much work on its main thread.
+09-19 14:32:52.924 I/Choreographer( 5172): Skipped 98 frames!  The application may be doing too much work on its main thread.
+09-19 14:32:53.133 E/Surface ( 5172): getSlotFromBufferLocked: unknown buffer: 0xa08c7160
+09-19 14:32:53.149 I/art     ( 5172): Background partial concurrent mark sweep GC freed 19570(1205KB) AllocSpace objects, 0(0B) LOS objects, 32% free, 8MB/12MB, paused 86.385ms total 241.919ms
+09-19 14:32:53.391 I/art     ( 5172): Starting a blocking GC Explicit
+09-19 14:32:53.604 I/art     ( 5172): Explicit concurrent mark sweep GC freed 4450(375KB) AllocSpace objects, 1(24KB) LOS objects, 33% free, 7MB/11MB, paused 1.645ms total 206.489ms
+09-19 14:32:53.606 I/art     ( 5172): Starting a blocking GC Explicit
+09-19 14:32:53.763 D/PhoneStatusBar( 1492): disable: < expand icons* alerts system_info* back home recent clock search quick_settings >
+09-19 14:32:53.775 I/art     ( 5172): Explicit concurrent mark sweep GC freed 567(33KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 7MB/11MB, paused 1.345ms total 168.208ms
+09-19 14:32:53.775 I/art     ( 5172): Starting a blocking GC Explicit
+09-19 14:32:53.787 I/art     ( 5172): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 33% free, 7MB/11MB, paused 1.625ms total 11.753ms
+09-19 14:32:53.824 E/Surface ( 1492): getSlotFromBufferLocked: unknown buffer: 0xa3404840
+09-19 14:32:53.831 W/EGL_emulation( 1492): eglSurfaceAttrib not implemented
+09-19 14:32:53.831 W/OpenGLRenderer( 1492): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa219a8c0, error=EGL_SUCCESS
+09-19 14:32:53.953 E/StrictMode( 5172): class com.android.settings.SubSettings; instances=2; limit=1
+09-19 14:32:53.953 E/StrictMode( 5172): android.os.StrictMode$InstanceCountViolation: class com.android.settings.SubSettings; instances=2; limit=1
+09-19 14:32:53.953 E/StrictMode( 5172): 	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+09-19 14:32:53.957 I/Choreographer( 5172): Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-19 14:32:53.964 W/InputMethodManagerService( 1300): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@fdd8dcc attribute=null, token = android.os.BinderProxy@6443160
+09-19 14:32:56.193 D/        ( 1300): HostConnection::get() New Host Connection established 0xa0859280, tid 1311
+09-19 14:32:56.206 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:32:56.391 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:32:56.392 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa1ca7920, error=EGL_SUCCESS
+09-19 14:32:56.509 I/art     ( 1300): Background partial concurrent mark sweep GC freed 23102(1826KB) AllocSpace objects, 17(848KB) LOS objects, 33% free, 6MB/10MB, paused 1.651ms total 158.101ms
+09-19 14:32:56.675 E/Surface ( 5172): getSlotFromBufferLocked: unknown buffer: 0xa08c7f60
+09-19 14:32:56.927 I/ActivityManager( 1300): Killing 2212:com.android.email/u0a28 (adj 15): empty #17
+09-19 14:32:58.240 I/Choreographer( 2003): Skipped 41 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:00.404 I/ActivityManager( 1300): Killing 2197:com.android.calendar/u0a20 (adj 15): empty #17
+09-19 14:33:11.276 D/AndroidRuntime( 5564): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+09-19 14:33:11.284 D/AndroidRuntime( 5564): CheckJNI is ON
+09-19 14:33:11.299 I/art     ( 5564): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:33:11.304 D/ICU     ( 5564): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+09-19 14:33:11.325 E/memtrack( 5564): Couldn't load memtrack module (No such file or directory)
+09-19 14:33:11.325 E/android.os.Debug( 5564): failed to load memtrack module: -2
+09-19 14:33:11.331 I/Radio-JNI( 5564): register_android_hardware_Radio DONE
+09-19 14:33:11.354 D/AndroidRuntime( 5564): Calling main entry com.android.commands.pm.Pm
+09-19 14:33:11.397 D/DefContainer( 5232): Copying /data/local/tmp/dpatel96_a2.cs442.com.activitylifecycle to base.apk
+09-19 14:33:11.521 I/PackageManager.DexOptimizer( 1300): Running dexopt (dex2oat) on: /data/app/vmdl2082881931.tmp/base.apk pkg=dpatel96_a2.cs442.com.activitylifecycle isa=x86 vmSafeMode=false debuggable=true oatDir = /data/app/vmdl2082881931.tmp/oat
+09-19 14:33:11.538 W/dex2oat ( 5580): Unexpected CPU variant for X86 using defaults: x86
+09-19 14:33:11.538 W/dex2oat ( 5580): Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,-sse4.1,-sse4.2,-avx,-avx2) for the command line:
+09-19 14:33:11.538 W/dex2oat ( 5580): /system/bin/dex2oat --zip-fd=6 --zip-location=base.apk --oat-fd=7 --oat-location=/data/app/vmdl2082881931.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=8 --debuggable
+09-19 14:33:11.538 I/dex2oat ( 5580): /system/bin/dex2oat --debuggable
+09-19 14:33:11.695 W/dex2oat ( 5580): Before Android 4.1, method int android.support.v7.internal.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+09-19 14:33:16.099 I/dex2oat ( 5580): dex2oat took 4.561s (threads: 1) arena alloc=514KB java alloc=2MB native alloc=9MB free=1700KB
+09-19 14:33:16.271 V/BackupManagerService( 1300): restoreAtInstall pkg=dpatel96_a2.cs442.com.activitylifecycle token=3 restoreSet=0
+09-19 14:33:16.271 V/BackupManagerService( 1300): Finishing install immediately
+09-19 14:33:16.272 W/Settings( 1300): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+09-19 14:33:16.272 I/art     ( 1300): Starting a blocking GC Explicit
+09-19 14:33:16.305 I/art     ( 1300): Explicit concurrent mark sweep GC freed 5776(435KB) AllocSpace objects, 4(80KB) LOS objects, 33% free, 6MB/10MB, paused 1.517ms total 28.668ms
+09-19 14:33:16.325 I/InputReader( 1300): Reconfiguring input devices.  changes=0x00000010
+09-19 14:33:16.359 I/art     ( 5564): System.exit called, status: 0
+09-19 14:33:16.359 I/AndroidRuntime( 5564): VM exiting with result code 0.
+09-19 14:33:16.381 D/CarrierServiceBindHelper( 1701): Receive action: android.intent.action.PACKAGE_ADDED
+09-19 14:33:16.382 D/CarrierServiceBindHelper( 1701): mHandler: 3
+09-19 14:33:16.382 D/CarrierConfigLoader( 1701): mHandler: 9 phoneId: 0
+09-19 14:33:16.441 D/Documents( 5352): Update found 5 roots in 119ms
+09-19 14:33:16.464 W/VoiceInteractionManagerService( 1300): no available voice recognition services found for user 0
+09-19 14:33:16.740 D/ChimeraCfgMgr( 2019): Loading module com.google.android.gms.games from APK com.google.android.gms
+09-19 14:33:16.741 D/PackageBroadcastService( 2019): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=dpatel96_a2.cs442.com.activitylifecycle
+09-19 14:33:16.755 I/ConfigFetchService( 2019): onStartCommand Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dpatel96_a2.cs442.com.activitylifecycle cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+09-19 14:33:16.755 I/ConfigService( 1871): onCreate
+09-19 14:33:16.761 I/ConfigFetchService( 2019): launchTask
+09-19 14:33:16.773 D/AndroidRuntime( 5620): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+09-19 14:33:16.775 D/AndroidRuntime( 5620): CheckJNI is ON
+09-19 14:33:16.789 I/art     ( 5620): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:33:16.795 D/ICU     ( 5620): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+09-19 14:33:16.814 D/ChimeraCfgMgr( 2019): Loading module com.google.android.gms.vision from APK com.google.android.gms
+09-19 14:33:16.824 I/PeopleContactsSync( 2019): CP2 sync disabled
+09-19 14:33:16.857 E/memtrack( 5620): Couldn't load memtrack module (No such file or directory)
+09-19 14:33:16.857 E/android.os.Debug( 5620): failed to load memtrack module: -2
+09-19 14:33:16.870 I/ConfigFetchService( 2019): service connected
+09-19 14:33:16.876 D/ConfigFetchService( 2019): ConfigApi connection successful.
+09-19 14:33:16.881 I/Radio-JNI( 5620): register_android_hardware_Radio DONE
+09-19 14:33:16.911 D/AndroidRuntime( 5620): Calling main entry com.android.commands.am.Am
+09-19 14:33:16.921 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity} from uid 0 on display 0
+09-19 14:33:16.933 D/AndroidRuntime( 5620): Shutting down VM
+09-19 14:33:16.940 I/art     ( 5620): Debugger is no longer active
+09-19 14:33:16.950 E/art     ( 5620): Thread attaching while runtime is shutting down: Binder_1
+09-19 14:33:16.950 I/AndroidRuntime( 5620): NOTE: attach of thread 'Binder_1' failed
+09-19 14:33:16.961 I/ActivityManager( 1300): Start proc 5637:dpatel96_a2.cs442.com.activitylifecycle/u0a58 for activity dpatel96_a2.cs442.com.activitylifecycle/.MainActivity
+09-19 14:33:16.969 I/art     ( 5637): Not late-enabling -Xcheck:jni (already on)
+09-19 14:33:16.969 I/art     ( 5637): Late-enabling JIT
+09-19 14:33:16.972 I/art     ( 5637): JIT created with code_cache_capacity=2MB compile_threshold=1000
+09-19 14:33:17.113 W/System  ( 5637): ClassLoader referenced unknown path: /data/app/dpatel96_a2.cs442.com.activitylifecycle-1/lib/x86
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 1: onCreate() called:
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 2: onStart() called:
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 3: onResume() called:
+09-19 14:33:17.430 E/SurfaceFlinger(  942): ro.sf.lcd_density must be defined as a build property
+09-19 14:33:17.430 D/OpenGLRenderer( 5637): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+09-19 14:33:17.433 D/        ( 5637): HostConnection::get() New Host Connection established 0xabef91c0, tid 5637
+09-19 14:33:17.583 D/        ( 5637): HostConnection::get() New Host Connection established 0xabef9360, tid 5651
+09-19 14:33:17.656 I/OpenGLRenderer( 5637): Initialized EGL, version 1.4
+09-19 14:33:17.688 W/EGL_emulation( 5637): eglSurfaceAttrib not implemented
+09-19 14:33:17.688 W/OpenGLRenderer( 5637): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad762280, error=EGL_SUCCESS
+09-19 14:33:17.982 E/Drm     (  953): Failed to find drm plugin
+09-19 14:33:18.009 W/DG.WV   ( 2862): Widevine DRM not supported on this device
+09-19 14:33:18.009 W/DG.WV   ( 2862): android.media.UnsupportedSchemeException: Failed to instantiate drm object.
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at android.media.MediaDrm.native_setup(Native Method)
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at android.media.MediaDrm.<init>(MediaDrm.java:215)
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at com.google.android.gms.droidguard.p.run(SourceFile:99)
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:33:18.009 W/DG.WV   ( 2862): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:33:18.013 I/AccountManagerService( 1300): getTypesVisibleToCaller: isPermitted? true
+09-19 14:33:18.016 I/GoogleURLConnFactory( 2862): Using platform SSLCertificateSocketFactory
+09-19 14:33:18.220 I/Choreographer( 1300): Skipped 69 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:18.233 I/ActivityManager( 1300): Displayed dpatel96_a2.cs442.com.activitylifecycle/.MainActivity: +1s301ms
+09-19 14:33:18.316 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0ceaf80
+09-19 14:33:18.394 W/GLSUser ( 1871): [AppCertManager] IOException while requesting key: 
+09-19 14:33:18.394 W/GLSUser ( 1871): java.io.IOException: Invalid device key response.
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:268)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:132)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.be.appcert.b.a(SourceFile:43)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.b.b.a(SourceFile:62)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:120)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:61)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.auth.be.cron.AuthCronService.a(SourceFile:44)
+09-19 14:33:18.394 W/GLSUser ( 1871): 	at com.google.android.gms.gcm.al.run(SourceFile:135)
+09-19 14:33:18.465 E/StrictMode( 1871): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+09-19 14:33:18.465 E/StrictMode( 1871): java.lang.Throwable: Explicit termination method 'end' not called
+09-19 14:33:18.465 E/StrictMode( 1871): 	at dalvik.system.CloseGuard.open(CloseGuard.java:180)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at java.util.zip.Inflater.<init>(Inflater.java:82)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.okio.GzipSource.<init>(GzipSource.java:62)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.http.HttpEngine.unzip(HttpEngine.java:645)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:827)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:439)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:384)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:497)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:105)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.a(SourceFile:811)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.a(SourceFile:776)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.execute(SourceFile:676)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.http.GoogleHttpClient.execute(SourceFile:660)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.j.a(SourceFile:220)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:263)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.a.a(SourceFile:132)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.appcert.b.a(SourceFile:43)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.b.a(SourceFile:62)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:120)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.b.a.a(SourceFile:61)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.auth.be.cron.AuthCronService.a(SourceFile:44)
+09-19 14:33:18.465 E/StrictMode( 1871): 	at com.google.android.gms.gcm.al.run(SourceFile:135)
+09-19 14:33:19.683 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.692 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.696 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.697 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.697 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.698 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:33:19.698 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:33:19.698 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:33:19.698 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:33:19.728 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.729 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.731 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.731 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.732 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.732 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:33:19.733 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:33:19.733 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:33:19.733 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:33:19.734 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.735 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.736 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.736 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.736 W/MountService( 1300): No primary storage defined yet; hacking together a stub
+09-19 14:33:19.737 W/ContextImpl( 2019): Failed to ensure /sdcard/Android/data/com.google.android.gms/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.google.android.gms/files
+09-19 14:33:19.737 E/FileSystemUtils( 2019): Unable to create shared content directory; disabling shared storage.
+09-19 14:33:19.737 E/FileSystemUtils( 2019): java.io.IOException: Unable to create cache directory: /drive_content_do_not_modify
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.a(SourceFile:234)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.af.f(SourceFile:201)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.b.e.run(SourceFile:72)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at com.google.android.gms.drive.i.bz.run(SourceFile:51)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-19 14:33:19.737 E/FileSystemUtils( 2019): 	at java.lang.Thread.run(Thread.java:818)
+09-19 14:33:26.880 V/ConfigFetchTask( 2019): ConfigFetchTask getDeviceDataVersionInfo(): ABFEt1VvG7ez1umLPE32OqMCHWv9CorNeozPGd0InUV7MkPzNLYGXkET_QU65JhNZ2h4l-WGqy3O71x9r9CkHnex4W4giXjhVFBMtaknxd1ITtnB8ouCoQblbkOtPxvOT_jaoDuU7nYgQYh0WdK_bWCvnmkYXideo4b7sNrcg8gO7KmSB4p1w-w2i7qv-c0X7XrBKzSZEjU01g_vwk6FA8ZdJGaRRDIzHMi3ztdS3kgTSTxaK6Rfk7W8kB4Od-A6soXnlaIyRmiXRLWdcg72FNiSGZGJsrNrcCaz8dsRNpw9lolrx3wdX76uClkfod_BD01Lo5HtIX03ZherapoCIw5OrSIr9o89fpOfPIjwOnrCv7Y7ZVytnsM
+09-19 14:33:26.893 I/GoogleURLConnFactory( 2019): Using platform SSLCertificateSocketFactory
+09-19 14:33:27.021 I/ConfigFetchService( 2019): fetch service done; releasing wakelock
+09-19 14:33:27.026 I/ConfigFetchService( 2019): stopping self
+09-19 14:33:31.906 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:33:32.031 D/Lifecycle_dpatel96( 5637): 4: onPause() called:
+09-19 14:33:32.164 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:33:32.164 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa2dcfce0, error=EGL_SUCCESS
+09-19 14:33:32.201 I/art     ( 1300): Background partial concurrent mark sweep GC freed 11649(766KB) AllocSpace objects, 4(80KB) LOS objects, 33% free, 6MB/10MB, paused 2.160ms total 170.898ms
+09-19 14:33:32.724 E/Surface ( 5637): getSlotFromBufferLocked: unknown buffer: 0xabeeb420
+09-19 14:33:32.773 I/ConfigService( 1871): onDestroy
+09-19 14:33:32.955 I/ActivityManager( 1300): Killing 2342:com.google.android.apps.messaging/u0a43 (adj 15): empty #17
+09-19 14:33:32.983 D/Lifecycle_dpatel96( 5637): 5: onStop() called:
+09-19 14:33:32.984 D/Lifecycle_dpatel96( 5637): 6: onDestroy() called:
+09-19 14:33:33.028 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:33.028 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:33.220 W/SurfaceFlinger(  942): couldn't log to binary event log: overflow.
+09-19 14:33:33.289 I/art     ( 1492): Background partial concurrent mark sweep GC freed 7101(300KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/7MB, paused 8.773ms total 154.631ms
+09-19 14:33:37.520 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity (has extras)} from uid 10008 on display 0
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 1: onCreate() called:
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 2: onStart() called:
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 3: onResume() called:
+09-19 14:33:37.692 W/EGL_emulation( 5637): eglSurfaceAttrib not implemented
+09-19 14:33:37.692 W/OpenGLRenderer( 5637): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad7624c0, error=EGL_SUCCESS
+09-19 14:33:39.435 I/ActivityManager( 1300): Displayed dpatel96_a2.cs442.com.activitylifecycle/.MainActivity: +1s848ms
+09-19 14:33:39.542 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0cec790
+09-19 14:33:42.244 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+09-19 14:33:42.272 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:33:42.458 D/Lifecycle_dpatel96( 5637): 4: onPause() called:
+09-19 14:33:42.542 D/Lifecycle_dpatel96( 5637): 5: onStop() called:
+09-19 14:33:42.563 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:33:42.563 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa2029bc0, error=EGL_SUCCESS
+09-19 14:33:42.803 I/art     ( 1300): Background partial concurrent mark sweep GC freed 3804(258KB) AllocSpace objects, 2(40KB) LOS objects, 33% free, 6MB/10MB, paused 1.853ms total 323.488ms
+09-19 14:33:42.902 E/Surface ( 5637): getSlotFromBufferLocked: unknown buffer: 0xabeeb0a0
+09-19 14:33:43.703 I/Choreographer( 2003): Skipped 46 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:43.766 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:43.766 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:44.192 W/SurfaceFlinger(  942): couldn't log to binary event log: overflow.
+09-19 14:33:46.542 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.browser cmp=com.android.browser/.BrowserActivity bnds=[849,1532][1050,1784] (has extras)} from uid 10008 on display 0
+09-19 14:33:46.608 D/WebViewTimersControl( 3607): onBrowserActivityResume
+09-19 14:33:46.608 D/WebViewTimersControl( 3607): Resuming webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:33:46.697 W/EGL_emulation( 3607): eglSurfaceAttrib not implemented
+09-19 14:33:46.697 W/OpenGLRenderer( 3607): Failed to set EGL_SWAP_BEHAVIOR on surface 0x9fea6ac0, error=EGL_SUCCESS
+09-19 14:33:46.768 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:33:46.917 I/art     ( 3607): Background sticky concurrent mark sweep GC freed 175(20KB) AllocSpace objects, 1(20KB) LOS objects, 0% free, 11MB/11MB, paused 1.804ms total 145.189ms
+09-19 14:33:48.884 I/Choreographer( 3607): Skipped 127 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:48.896 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0ceb680
+09-19 14:33:48.913 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:33:49.167 I/art     ( 3607): Background partial concurrent mark sweep GC freed 192(8KB) AllocSpace objects, 0(0B) LOS objects, 19% free, 16MB/20MB, paused 147.181ms total 290.897ms
+09-19 14:33:49.446 W/art     ( 5637): Suspending all threads took: 7.456ms
+09-19 14:33:49.634 I/Choreographer( 3607): Skipped 45 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:49.667 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:33:49.691 I/art     ( 3607): Background sticky concurrent mark sweep GC freed 9(576B) AllocSpace objects, 0(0B) LOS objects, 0% free, 21MB/21MB, paused 15.110ms total 50.527ms
+09-19 14:33:50.067 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:33:50.452 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:33:54.739 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+09-19 14:33:54.778 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:33:54.831 D/WebViewTimersControl( 3607): onBrowserActivityPause
+09-19 14:33:54.831 D/WebViewTimersControl( 3607): Pausing webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:33:54.914 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:33:54.914 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa1ca7500, error=EGL_SUCCESS
+09-19 14:33:54.942 I/art     ( 1300): Background partial concurrent mark sweep GC freed 2853(188KB) AllocSpace objects, 2(40KB) LOS objects, 33% free, 6MB/10MB, paused 1.501ms total 108.830ms
+09-19 14:33:55.693 W/art     ( 5637): Suspending all threads took: 35.263ms
+09-19 14:33:55.795 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:55.795 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:33:55.983 E/Surface ( 3607): getSlotFromBufferLocked: unknown buffer: 0xb3fd5560
+09-19 14:33:58.368 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=dpatel96_a2.cs442.com.activitylifecycle/.MainActivity (has extras)} from uid 10008 on display 0
+09-19 14:33:58.462 D/Lifecycle_dpatel96( 5637): 6: onRestart() called:
+09-19 14:33:58.463 D/Lifecycle_dpatel96( 5637): 7: onStart() called:
+09-19 14:33:58.463 D/Lifecycle_dpatel96( 5637): 8: onResume() called:
+09-19 14:33:58.551 W/EGL_emulation( 5637): eglSurfaceAttrib not implemented
+09-19 14:33:58.551 W/OpenGLRenderer( 5637): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad71b9c0, error=EGL_SUCCESS
+09-19 14:33:59.591 I/Choreographer( 5637): Skipped 55 frames!  The application may be doing too much work on its main thread.
+09-19 14:33:59.732 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0ceb680
+09-19 14:34:01.048 I/ActivityManager( 1300): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10014 on display 0
+09-19 14:34:01.103 D/        ( 1300): HostConnection::get() New Host Connection established 0x9d5bfc50, tid 1379
+09-19 14:34:01.130 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:34:01.409 W/art     ( 1300): Long monitor contention event with owner method=android.graphics.Bitmap com.android.server.wm.WindowManagerService.screenshotApplicationsInner(android.os.IBinder, int, int, int, boolean) from WindowManagerService.java:6213 waiters=0 for 298ms
+09-19 14:34:01.417 D/Lifecycle_dpatel96( 5637): 9: onPause() called:
+09-19 14:34:01.444 D/Lifecycle_dpatel96( 5637): 10: onStop() called:
+09-19 14:34:01.461 E/Surface ( 5637): getSlotFromBufferLocked: unknown buffer: 0xabeeb420
+09-19 14:34:01.535 W/EGL_emulation( 1492): eglSurfaceAttrib not implemented
+09-19 14:34:01.535 W/OpenGLRenderer( 1492): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa1d3fba0, error=EGL_SUCCESS
+09-19 14:34:02.522 I/Choreographer( 1492): Skipped 58 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:02.967 W/SurfaceFlinger(  942): couldn't log to binary event log: overflow.
+09-19 14:34:04.478 D/WebViewTimersControl( 3607): onBrowserActivityResume
+09-19 14:34:04.478 D/WebViewTimersControl( 3607): Resuming webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:34:04.562 W/EGL_emulation( 3607): eglSurfaceAttrib not implemented
+09-19 14:34:04.562 W/OpenGLRenderer( 3607): Failed to set EGL_SWAP_BEHAVIOR on surface 0x9fea6ac0, error=EGL_SUCCESS
+09-19 14:34:04.616 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:05.175 I/Choreographer( 1492): Skipped 41 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:06.266 E/Surface ( 1492): getSlotFromBufferLocked: unknown buffer: 0xa34083c0
+09-19 14:34:06.346 I/Choreographer( 3607): Skipped 103 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:06.381 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:06.650 I/art     ( 3607): Background partial concurrent mark sweep GC freed 26(1152B) AllocSpace objects, 1(4MB) LOS objects, 26% free, 11MB/15MB, paused 1.428ms total 171.572ms
+09-19 14:34:07.127 I/Choreographer( 3607): Skipped 44 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:07.146 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:07.150 I/art     ( 3607): WaitForGcToComplete blocked for 10.917ms for cause Background
+09-19 14:34:07.633 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:08.037 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:11.178 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+09-19 14:34:11.196 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:34:11.420 D/WebViewTimersControl( 3607): onBrowserActivityPause
+09-19 14:34:11.420 D/WebViewTimersControl( 3607): Pausing webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:34:11.459 I/art     ( 1300): Background partial concurrent mark sweep GC freed 1874(133KB) AllocSpace objects, 2(40KB) LOS objects, 33% free, 6MB/10MB, paused 11.242ms total 106.712ms
+09-19 14:34:11.484 E/Surface ( 3607): getSlotFromBufferLocked: unknown buffer: 0xabeeacb0
+09-19 14:34:11.571 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:34:11.571 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa2028d60, error=EGL_SUCCESS
+09-19 14:34:12.340 I/Choreographer( 2003): Skipped 39 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:12.594 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:34:12.594 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:34:17.622 I/ActivityManager( 1300): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.browser cmp=com.android.browser/.BrowserActivity bnds=[849,1532][1050,1784] (has extras)} from uid 10008 on display 0
+09-19 14:34:17.725 D/WebViewTimersControl( 3607): onBrowserActivityResume
+09-19 14:34:17.725 D/WebViewTimersControl( 3607): Resuming webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:34:17.805 W/EGL_emulation( 3607): eglSurfaceAttrib not implemented
+09-19 14:34:17.805 W/OpenGLRenderer( 3607): Failed to set EGL_SWAP_BEHAVIOR on surface 0x9fea6ac0, error=EGL_SUCCESS
+09-19 14:34:17.907 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:19.909 I/Choreographer( 3607): Skipped 122 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:19.924 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:19.939 E/Surface ( 2003): getSlotFromBufferLocked: unknown buffer: 0xa0ceb680
+09-19 14:34:20.275 I/art     ( 3607): Background sticky concurrent mark sweep GC freed 37(1584B) AllocSpace objects, 0(0B) LOS objects, 0% free, 16MB/16MB, paused 100.193ms total 357.868ms
+09-19 14:34:20.542 I/Choreographer( 3607): Skipped 37 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:20.548 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:20.888 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:21.257 W/art     ( 3607): Attempt to remove non-JNI local reference, dumping thread
+09-19 14:34:21.297 I/ActivityManager( 1300): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10014 on display 0
+09-19 14:34:21.431 D/        ( 1300): HostConnection::get() New Host Connection established 0x9d76b4e0, tid 1485
+09-19 14:34:21.451 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:34:21.848 I/Choreographer( 1492): Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:21.956 W/EGL_emulation( 1492): eglSurfaceAttrib not implemented
+09-19 14:34:21.956 W/OpenGLRenderer( 1492): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa347e5e0, error=EGL_SUCCESS
+09-19 14:34:22.050 I/art     ( 1300): Background partial concurrent mark sweep GC freed 2330(178KB) AllocSpace objects, 2(40KB) LOS objects, 33% free, 6MB/10MB, paused 1.522ms total 219.870ms
+09-19 14:34:23.002 I/Choreographer( 3607): Skipped 104 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:23.037 D/WebViewTimersControl( 3607): onBrowserActivityPause
+09-19 14:34:23.037 D/WebViewTimersControl( 3607): Pausing webview timers, view=com.android.browser.BrowserWebView{3a9f62a VFEDHVCL. .F...... 0,0-1080,1211}
+09-19 14:34:23.297 E/Surface ( 3607): getSlotFromBufferLocked: unknown buffer: 0xabeeacb0
+09-19 14:34:23.598 D/Lifecycle_dpatel96( 5637): 11: onRestart() called:
+09-19 14:34:23.606 D/Lifecycle_dpatel96( 5637): 12: onStart() called:
+09-19 14:34:23.606 D/Lifecycle_dpatel96( 5637): 13: onResume() called:
+09-19 14:34:23.678 W/EGL_emulation( 5637): eglSurfaceAttrib not implemented
+09-19 14:34:23.678 W/OpenGLRenderer( 5637): Failed to set EGL_SWAP_BEHAVIOR on surface 0xad71b9c0, error=EGL_SUCCESS
+09-19 14:34:23.881 E/Surface ( 1492): getSlotFromBufferLocked: unknown buffer: 0xa3407710
+09-19 14:34:25.382 D/Lifecycle_dpatel96( 5637): My First Button Hitted!
+09-19 14:34:25.407 D/        ( 1300): HostConnection::get() New Host Connection established 0x9d76b700, tid 2526
+09-19 14:34:25.420 E/EGL_emulation(  942): tid 942: eglCreateSyncKHR(1243): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-19 14:34:25.517 D/Lifecycle_dpatel96( 5637): 14: onPause() called:
+09-19 14:34:25.656 W/EGL_emulation( 2003): eglSurfaceAttrib not implemented
+09-19 14:34:25.656 W/OpenGLRenderer( 2003): Failed to set EGL_SWAP_BEHAVIOR on surface 0xa2028de0, error=EGL_SUCCESS
+09-19 14:34:25.850 I/art     ( 1300): Background partial concurrent mark sweep GC freed 1423(93KB) AllocSpace objects, 1(20KB) LOS objects, 33% free, 6MB/10MB, paused 82.964ms total 354.525ms
+09-19 14:34:26.108 W/art     ( 5637): Suspending all threads took: 69.273ms
+09-19 14:34:26.455 I/Choreographer( 2003): Skipped 41 frames!  The application may be doing too much work on its main thread.
+09-19 14:34:26.504 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:34:26.505 W/OpenGLRenderer( 2003): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+09-19 14:34:26.534 E/Surface ( 5637): getSlotFromBufferLocked: unknown buffer: 0xabeeb420
+09-19 14:34:26.752 D/Lifecycle_dpatel96( 5637): 15: onStop() called:
+09-19 14:34:26.752 D/Lifecycle_dpatel96( 5637): 16: onDestroy() called:
+09-19 14:34:26.936 W/SurfaceFlinger(  942): couldn't log to binary event log: overflow.

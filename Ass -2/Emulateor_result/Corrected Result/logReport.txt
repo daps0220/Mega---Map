@@ -1,0 +1,25 @@
+
+---------- LOG.TXT
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 1: onCreate() called:
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 2: onStart() called:
+09-19 14:33:17.397 D/Lifecycle_dpatel96( 5637): 3: onResume() called:
+09-19 14:33:32.031 D/Lifecycle_dpatel96( 5637): 4: onPause() called:
+09-19 14:33:32.983 D/Lifecycle_dpatel96( 5637): 5: onStop() called:
+09-19 14:33:32.984 D/Lifecycle_dpatel96( 5637): 6: onDestroy() called:
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 1: onCreate() called:
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 2: onStart() called:
+09-19 14:33:37.608 D/Lifecycle_dpatel96( 5637): 3: onResume() called:
+09-19 14:33:42.458 D/Lifecycle_dpatel96( 5637): 4: onPause() called:
+09-19 14:33:42.542 D/Lifecycle_dpatel96( 5637): 5: onStop() called:
+09-19 14:33:58.462 D/Lifecycle_dpatel96( 5637): 6: onRestart() called:
+09-19 14:33:58.463 D/Lifecycle_dpatel96( 5637): 7: onStart() called:
+09-19 14:33:58.463 D/Lifecycle_dpatel96( 5637): 8: onResume() called:
+09-19 14:34:01.417 D/Lifecycle_dpatel96( 5637): 9: onPause() called:
+09-19 14:34:01.444 D/Lifecycle_dpatel96( 5637): 10: onStop() called:
+09-19 14:34:23.598 D/Lifecycle_dpatel96( 5637): 11: onRestart() called:
+09-19 14:34:23.606 D/Lifecycle_dpatel96( 5637): 12: onStart() called:
+09-19 14:34:23.606 D/Lifecycle_dpatel96( 5637): 13: onResume() called:
+09-19 14:34:25.382 D/Lifecycle_dpatel96( 5637): My First Button Hitted!
+09-19 14:34:25.517 D/Lifecycle_dpatel96( 5637): 14: onPause() called:
+09-19 14:34:26.752 D/Lifecycle_dpatel96( 5637): 15: onStop() called:
+09-19 14:34:26.752 D/Lifecycle_dpatel96( 5637): 16: onDestroy() called:

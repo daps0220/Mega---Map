@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <fragment android:name="npate105_a5.cs442.com.NewItemFragment"
+    android:id="@+id/NewItemFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+  <fragment android:name="npate105_a5.cs442.com.ToDoListFragment"
+    android:id="@+id/TodoListFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+    <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <Button android:id="@+id/Button01"
+            android:text="Export"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="saveClicked"
+           >
+
+        </Button>
+        <Button android:id="@+id/Button02"
+            android:text="Import"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+
+        </Button>
+        <Button android:id="@+id/Button03"
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="resetClicked"
+          >
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/darpa/AndroidStudioProjects/Chapter_4_To-do_List_Part_4/app/src/main/res/layout/main.xml -->

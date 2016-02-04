@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/fooditem_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:ellipsize="end"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="25sp"
+        android:layout_gravity="right"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff000000"
+        android:layout_weight="0.41" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_des_head"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic|bold"
+        android:textAlignment="textStart"
+        android:textIsSelectable="true"
+        android:text="Description :"
+        android:textSize="26sp"
+        android:textColor="#ff000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_description"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:id="@+id/tv_ing_head"
+        android:text="Ingrediants :"
+        android:textColor="#ff000000"
+        android:textSize="26sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_ingredients"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_rec_head"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic|bold"
+        android:textIsSelectable="true"
+        android:text="Recipe : "
+        android:textColor="#ff000000"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_recipe"
+        android:textColor="#ff000000"/>
+
+
+</LinearLayout>
+
+</ScrollView>
